@@ -10,6 +10,11 @@
 	.box-article h3{
 		font-size: 22px !important;
 	}
+
+	.box-article .time p{
+		font-size: 15px !important;
+	}
+
 	#particles-js {
 		height: 550px !important;
 	}
