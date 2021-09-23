@@ -7,11 +7,11 @@
 		zoom : 40% !important;
 	}
 
-	.box-article h3{
+	.box-article h3, .con-project h3{
 		font-size: 22px !important;
 	}
 
-	.box-article  p{
+	.box-article  p , .con-project p{
 		font-size: 15px !important;
 	}
 
