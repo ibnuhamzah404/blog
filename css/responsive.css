@@ -4,7 +4,11 @@
 		font-size: 19px;
 	}
 	html{
-		zoom : 58% !important;
+		zoom : 40% !important;
+	}
+
+	.box-article h3{
+		font-size: 22px !important;
 	}
 	#particles-js {
 		height: 550px !important;
