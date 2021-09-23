@@ -1,0 +1,59 @@
+
+@media screen and (max-width: 680px) {
+	html{
+		zoom : 58% !important;
+	}
+	#particles-js {
+		height: 550px !important;
+	}
+	#particles-js .container {
+		padding: 0px 20px !important;
+	}
+	#particles-js h3 {
+		font-size: 40px;
+		;
+	}
+	.blue-of-death h3 {
+		padding: 0 !important;
+	}
+	.con-profile {
+		width: 90% !important;
+	}
+	.con-project {
+		width: 100% !important;
+		flex-direction: column !important;
+		justify-content: center !important;
+		align-items: center !important;
+	}
+	.con-project div {
+		width: 100% !important;
+		margin-right: 0 !important;
+		;
+	}
+	.con-project img {
+		width: 70% !important;
+	}
+	.con-profile div {
+		padding: 5px !important;
+		flex-direction: column !important;
+		height: auto !important;
+		width: fit-content !important;
+	}
+	.content div div h4 a {
+		font-size: 25px !important;
+	}
+	.box .ml-3 {
+		padding-left: 0 !important;
+	}
+	.content div div {
+		word-wrap: break-word;
+	}
+	.content a {
+		width: fit-content !important;
+	}
+	section.content {
+		margin: 0 auto;
+		;
+		width: 85% !important;
+	}
+}

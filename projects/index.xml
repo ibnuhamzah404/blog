@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on My New Hugo Site</title>
+    <link>https://ibnuhamzah404.github.io/blog/projects/</link>
+    <description>Recent content in Projects on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Sep 2021 03:01:00 +0700</lastBuildDate><atom:link href="https://ibnuhamzah404.github.io/blog/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects 9</title>
+      <link>https://ibnuhamzah404.github.io/blog/projects/projects-9/</link>
+      <pubDate>Fri, 17 Sep 2021 03:01:00 +0700</pubDate>
+      
+      <guid>https://ibnuhamzah404.github.io/blog/projects/projects-9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects 6</title>
+      <link>https://ibnuhamzah404.github.io/blog/projects/projects-6/</link>
+      <pubDate>Fri, 17 Sep 2021 02:39:22 +0700</pubDate>
+      
+      <guid>https://ibnuhamzah404.github.io/blog/projects/projects-6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects 5</title>
+      <link>https://ibnuhamzah404.github.io/blog/projects/projects-5/</link>
+      <pubDate>Fri, 17 Sep 2021 02:39:18 +0700</pubDate>
+      
+      <guid>https://ibnuhamzah404.github.io/blog/projects/projects-5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects 4</title>
+      <link>https://ibnuhamzah404.github.io/blog/projects/projects-4/</link>
+      <pubDate>Fri, 17 Sep 2021 02:39:14 +0700</pubDate>
+      
+      <guid>https://ibnuhamzah404.github.io/blog/projects/projects-4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects 3</title>
+      <link>https://ibnuhamzah404.github.io/blog/projects/projects-3/</link>
+      <pubDate>Fri, 17 Sep 2021 02:39:10 +0700</pubDate>
+      
+      <guid>https://ibnuhamzah404.github.io/blog/projects/projects-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects 2</title>
+      <link>https://ibnuhamzah404.github.io/blog/projects/projects-2/</link>
+      <pubDate>Fri, 17 Sep 2021 00:27:03 +0700</pubDate>
+      
+      <guid>https://ibnuhamzah404.github.io/blog/projects/projects-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pembuatan IOT box paket menggunakan node mcu esp8266 dikendalikan dengan telegram</title>
+      <link>https://ibnuhamzah404.github.io/blog/projects/projects-1/</link>
+      <pubDate>Thu, 16 Sep 2021 07:55:15 +0700</pubDate>
+      
+      <guid>https://ibnuhamzah404.github.io/blog/projects/projects-1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

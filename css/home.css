@@ -1,0 +1,169 @@
+html {
+	zoom: 75%;
+}
+
+body {
+	transition: background 0.5s ease;
+	background-color: #F5F5F5;
+	height: auto;
+}
+
+
+
+ol {
+	list-style: auto !important;
+	padding-left: 40px;
+	font-weight: normal !important;
+}
+
+
+.con-post {
+	background-color: #fff;
+	border-radius: 8px;
+}
+
+.con-post:active {
+	transform: scale(.96);
+}
+
+.no-hover {
+	background-color: #2E2E33 !important;
+	border-radius: 10px;
+	border: 1px solid #333333;
+}
+
+/* dark mode */
+
+.darkmode {
+	transition: background 0.5s ease;
+	background-color: #313233 !important;
+}
+
+.body-dark {
+	transition: background 0.5s ease;
+	background-color: #1D1E20 !important;
+}
+
+.dark-list-font {
+	width: fit-content;
+	background: linear-gradient( 180deg, transparent 0, transparent 60%, #000a9b 0, #1c005e) !important;
+	color: thistle;
+}
+
+.darkfont {
+	color: white;
+}
+
+
+
+/* background section */
+
+.section-profile {
+	background-image: linear-gradient(to right, #0004A5, #01037a);
+}
+
+.text-blue-of-death {
+	color: #0000AD;
+}
+
+.ssp {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 500;
+}
+
+.box-strong {
+	color: white;
+	width: fit-content;
+	height: auto;
+	padding: 0px 8px;
+	border-radius: 10px;
+	background-color: #515153;
+}
+
+.box-strong p {
+	line-height: 60px;
+}
+
+.blue-of-death {
+	background-color: #0000AD;
+}
+
+.con-profile {
+	filter: drop-shadow(7px 8px 0 #000);
+	background-color: #f3f3f3;
+}
+
+.roboto {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+}
+
+.list-font {
+	width: fit-content;
+	background: linear-gradient( 180deg, transparent 0, transparent 60%, #fbf36d 0, #fbf36d);
+}
+
+.vt323 {
+	font-family: 'VT323', monospace;
+}
+
+.blink_me {
+	animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+	50% {
+		opacity: 0;
+	}
+}
+
+bg-tags-1 {
+	background-color: blue;
+}
+
+bg-tags-2 {
+	background-color: red;
+}
+
+bg-tags-3 {
+	background-color: yellow;
+}
+
+
+
+.b-doted {
+	border-top: 4px dashed blue;
+}
+
+.nav-item {
+	background: #F7D51D;
+	box-shadow: inset -4px -4px 0px 0px #e59400;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	font-size: 12px;
+	padding: 10px;
+	font-family: "Press Start 2P", cursive;
+	text-decoration: none;
+}
+
+.btn {
+	box-shadow: inset -4px -4px 0px 0px #0d0d0e;
+}
+
+/* hover */
+
+.nav-item:hover {
+	background: #e4c517;
+}
+
+.con-post:not(.no-hover):hover {
+	background-color: rgb(235, 235, 235);
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.no-hover:hover {
+	background-color: #232325 !important;
+	cursor: pointer !important;
+}

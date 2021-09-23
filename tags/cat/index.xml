@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cat on My New Hugo Site</title>
+    <link>https://ibnuhamzah404.github.io/blog/tags/cat/</link>
+    <description>Recent content in cat on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Sep 2021 18:04:06 +0700</lastBuildDate><atom:link href="https://ibnuhamzah404.github.io/blog/tags/cat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Belajar Arduino Dari Dasar</title>
+      <link>https://ibnuhamzah404.github.io/blog/blog/belajar-arduino-dari-dasar/</link>
+      <pubDate>Wed, 08 Sep 2021 18:04:06 +0700</pubDate>
+      
+      <guid>https://ibnuhamzah404.github.io/blog/blog/belajar-arduino-dari-dasar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Post 2</title>
+      <link>https://ibnuhamzah404.github.io/blog/blog/blog-post-2/</link>
+      <pubDate>Sun, 05 Sep 2021 19:54:45 +0700</pubDate>
+      
+      <guid>https://ibnuhamzah404.github.io/blog/blog/blog-post-2/</guid>
+      <description>⚡ Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;lsquo;Content here, content here&amp;rsquo;, making it look like readable English. Many desktop publishing
+ It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</description>
+    </item>
+    
+  </channel>
+</rss>
