@@ -15,6 +15,10 @@
 		font-size: 15px !important;
 	}
 
+	.box-article span.tags{
+		font-size: 15px !important;
+	}
+
 	#particles-js {
 		height: 550px !important;
 	}
