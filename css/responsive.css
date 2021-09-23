@@ -27,6 +27,7 @@
 	}
 	#particles-js .container {
 		padding: 0px 20px !important;
+		height: height: 100%;
 	}
 	#particles-js h3 {
 		font-size: 40px;
