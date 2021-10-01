@@ -11,7 +11,7 @@ $(document).ready(function () {
 });
 
 // lazzy img
-document.addEventListener("DOMContentLoaded", function () {
+$("DOMContentLoaded", function () {
 	var lazyloadImages = document.querySelectorAll("img.lazy");
 	var lazyloadThrottleTimeout;
 
@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
 				if (img.offsetTop < (window.innerHeight + scrollTop)) {
 					img.src = img.dataset.src;
 					img.classList.remove('lazy');
+					console.log(scrollTop);
 				}
 			});
 			if (lazyloadImages.length == 0) {
@@ -33,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
 				window.removeEventListener("resize", lazyload);
 				window.removeEventListener("orientationChange", lazyload);
 			}
-		}, 20);
+		}, 5);
 	}
     
 

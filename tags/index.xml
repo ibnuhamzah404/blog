@@ -6,11 +6,11 @@
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Sep 2021 18:04:06 +0700</lastBuildDate><atom:link href="https://ibnuhamzah404.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Sep 2021 19:54:45 +0700</lastBuildDate><atom:link href="https://ibnuhamzah404.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cat</title>
       <link>https://ibnuhamzah404.github.io/blog/tags/cat/</link>
-      <pubDate>Wed, 08 Sep 2021 18:04:06 +0700</pubDate>
+      <pubDate>Sun, 05 Sep 2021 19:54:45 +0700</pubDate>
       
       <guid>https://ibnuhamzah404.github.io/blog/tags/cat/</guid>
       <description></description>
@@ -19,18 +19,9 @@
     <item>
       <title>dog</title>
       <link>https://ibnuhamzah404.github.io/blog/tags/dog/</link>
-      <pubDate>Wed, 08 Sep 2021 18:04:06 +0700</pubDate>
+      <pubDate>Sun, 05 Sep 2021 19:54:45 +0700</pubDate>
       
       <guid>https://ibnuhamzah404.github.io/blog/tags/dog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>turtle</title>
-      <link>https://ibnuhamzah404.github.io/blog/tags/turtle/</link>
-      <pubDate>Wed, 08 Sep 2021 18:04:06 +0700</pubDate>
-      
-      <guid>https://ibnuhamzah404.github.io/blog/tags/turtle/</guid>
       <description></description>
     </item>
     
@@ -40,6 +31,15 @@
       <pubDate>Sun, 05 Sep 2021 19:54:45 +0700</pubDate>
       
       <guid>https://ibnuhamzah404.github.io/blog/tags/fish/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>turtle</title>
+      <link>https://ibnuhamzah404.github.io/blog/tags/turtle/</link>
+      <pubDate>Sun, 05 Sep 2021 19:54:45 +0700</pubDate>
+      
+      <guid>https://ibnuhamzah404.github.io/blog/tags/turtle/</guid>
       <description></description>
     </item>
     

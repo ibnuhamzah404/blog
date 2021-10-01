@@ -2,52 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ibnuhamzah404.github.io/blog/projects/</loc>
-    <lastmod>2021-09-17T03:01:00+07:00</lastmod>
-  </url><url>
-    <loc>https://ibnuhamzah404.github.io/blog/projects/projects-9/</loc>
-    <lastmod>2021-09-17T03:01:00+07:00</lastmod>
-  </url><url>
-    <loc>https://ibnuhamzah404.github.io/blog/projects/projects-6/</loc>
-    <lastmod>2021-09-17T02:39:22+07:00</lastmod>
-  </url><url>
-    <loc>https://ibnuhamzah404.github.io/blog/projects/projects-5/</loc>
-    <lastmod>2021-09-17T02:39:18+07:00</lastmod>
-  </url><url>
-    <loc>https://ibnuhamzah404.github.io/blog/projects/projects-4/</loc>
-    <lastmod>2021-09-17T02:39:14+07:00</lastmod>
-  </url><url>
-    <loc>https://ibnuhamzah404.github.io/blog/projects/projects-3/</loc>
-    <lastmod>2021-09-17T02:39:10+07:00</lastmod>
-  </url><url>
-    <loc>https://ibnuhamzah404.github.io/blog/projects/projects-2/</loc>
-    <lastmod>2021-09-17T00:27:03+07:00</lastmod>
-  </url><url>
-    <loc>https://ibnuhamzah404.github.io/blog/projects/projects-1/</loc>
-    <lastmod>2021-09-16T07:55:15+07:00</lastmod>
-  </url><url>
-    <loc>https://ibnuhamzah404.github.io/blog/blog/post-1/</loc>
-    <lastmod>2021-09-16T01:13:52+07:00</lastmod>
-  </url><url>
-    <loc>https://ibnuhamzah404.github.io/blog/blog/belajar-arduino-dari-dasar/</loc>
-    <lastmod>2021-09-08T18:04:06+07:00</lastmod>
-  </url><url>
     <loc>https://ibnuhamzah404.github.io/blog/tags/cat/</loc>
-    <lastmod>2021-09-08T18:04:06+07:00</lastmod>
+    <lastmod>2021-09-05T19:54:45+07:00</lastmod>
   </url><url>
     <loc>https://ibnuhamzah404.github.io/blog/tags/dog/</loc>
-    <lastmod>2021-09-08T18:04:06+07:00</lastmod>
-  </url><url>
-    <loc>https://ibnuhamzah404.github.io/blog/tags/</loc>
-    <lastmod>2021-09-08T18:04:06+07:00</lastmod>
-  </url><url>
-    <loc>https://ibnuhamzah404.github.io/blog/tags/turtle/</loc>
-    <lastmod>2021-09-08T18:04:06+07:00</lastmod>
-  </url><url>
-    <loc>https://ibnuhamzah404.github.io/blog/blog/blog-post-4/</loc>
-    <lastmod>2021-09-08T14:45:24+07:00</lastmod>
-  </url><url>
-    <loc>https://ibnuhamzah404.github.io/blog/blog/blog-post-1/</loc>
     <lastmod>2021-09-05T19:54:45+07:00</lastmod>
   </url><url>
     <loc>https://ibnuhamzah404.github.io/blog/tags/fish/</loc>
@@ -56,7 +14,10 @@
     <loc>https://ibnuhamzah404.github.io/blog/blog/blog-post-2/</loc>
     <lastmod>2021-09-05T19:54:45+07:00</lastmod>
   </url><url>
-    <loc>https://ibnuhamzah404.github.io/blog/blog/blog-post-3/</loc>
+    <loc>https://ibnuhamzah404.github.io/blog/tags/</loc>
+    <lastmod>2021-09-05T19:54:45+07:00</lastmod>
+  </url><url>
+    <loc>https://ibnuhamzah404.github.io/blog/tags/turtle/</loc>
     <lastmod>2021-09-05T19:54:45+07:00</lastmod>
   </url><url>
     <loc>https://ibnuhamzah404.github.io/blog/blog/</loc>
@@ -66,9 +27,5 @@
     <lastmod>2021-09-04T23:49:09+07:00</lastmod>
   </url><url>
     <loc>https://ibnuhamzah404.github.io/blog/categories/</loc>
-  </url><url>
-    <loc>https://ibnuhamzah404.github.io/blog/blog/post-baru/</loc>
-  </url><url>
-    <loc>https://ibnuhamzah404.github.io/blog/blog/post-baru-2/</loc>
   </url>
 </urlset>
