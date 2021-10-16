@@ -37,6 +37,7 @@
 		height: auto !important;
 		max-height: 450px !important;
 		min-height: 400px !important;
+		overflow: hidden;
 	}
 	
 	#particles-js h3 {
