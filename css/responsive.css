@@ -32,9 +32,9 @@
 		padding: 0px 20px !important;
 	
 	}
-
-	canvas{
+	canvas.particles-js-canvas-el{
 		min-height: 400px;
+		height: 500px !important;
 	}
 	
 	#particles-js h3 {
