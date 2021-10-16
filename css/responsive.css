@@ -7,6 +7,9 @@
 		zoom : 60% !important;
 	}
 
+	.con-post{
+		width: 95% !important;
+	}
 	.box-article h3, .con-project h3{
 		font-size: 22px !important;
 	}
