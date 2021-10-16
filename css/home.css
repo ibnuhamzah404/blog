@@ -108,6 +108,12 @@ ol {
 	transform: scale(.96);
 }
 
+canvas{
+	width: 100%;
+    height: fit-content !important;
+    padding: 60px 0px !important;
+
+}
 .no-hover {
 	background-color: #2E2E33 !important;
 	border-radius: 10px;
