@@ -4,7 +4,7 @@
 		font-size: 19px;
 	}
 	html{
-		zoom : 40% !important;
+		zoom : 60% !important;
 	}
 
 	.box-article h3, .con-project h3{
@@ -28,6 +28,10 @@
 	#particles-js .container {
 		padding: 0px 20px !important;
 	
+	}
+
+	canvas{
+		min-height: 400px;
 	}
 	
 	#particles-js h3 {
