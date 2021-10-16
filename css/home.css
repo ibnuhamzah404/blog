@@ -84,7 +84,9 @@ body {
 	height: auto;
 }
 
-
+.content .container{
+	width: 95%;
+}
 
 ol {
 	list-style: auto !important;
@@ -96,6 +98,10 @@ ol {
 .con-post {
 	background-color: #fff;
 	border-radius: 8px;
+}
+
+.con-post{
+	width: 95% !important;
 }
 
 .con-post:active {
