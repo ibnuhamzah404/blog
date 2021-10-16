@@ -33,8 +33,8 @@
 	
 	}
 	canvas.particles-js-canvas-el{
-		min-height: 400px;
-		height: 500px !important;
+	
+		height: auto !important;
 	}
 	
 	#particles-js h3 {
