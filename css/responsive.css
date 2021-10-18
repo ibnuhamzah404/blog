@@ -1,0 +1,98 @@
+
+@media screen and (max-width: 680px) {
+
+	footer{
+		padding-top: 20px !important;
+	}
+	.section-profile p{
+		font-size: 19px;
+	}
+	html{
+		zoom : 60% !important;
+	}
+
+	.con-post{
+		width: 95% !important;
+	}
+	.box-article h3, .con-project h3{
+		font-size: 22px !important;
+	}
+
+	.box-article  p , .con-project p{
+		font-size: 15px !important;
+	}
+
+	.box-article span.tags a{
+		font-size: 15px !important;
+	}
+	.box-article span.tags{
+		padding : 5px !important;
+	}
+
+	#particles-js {
+		height: fit-content !important;
+		position: relative;
+	}
+	#particles-js .container {
+		padding: 40px 20px !important;
+	
+	}
+	canvas.particles-js-canvas-el{
+		position: absolute;
+    	top: 0;
+		left: 0;
+		right: 0;
+	    height: 550px !important;
+  		min-height: 550px !important;
+		overflow-y: hidden;
+		overflow: hidden !important;
+	}
+	
+	#particles-js h3 {
+		font-size: 40px;
+		;
+	}
+	.blue-of-death h3 {
+		padding: 0 !important;
+	}
+	.con-profile {
+		width: 90% !important;
+	}
+	.con-project {
+		width: 100% !important;
+		flex-direction: column !important;
+		justify-content: center !important;
+		align-items: center !important;
+	}
+	.con-project div {
+		width: 100% !important;
+		margin-right: 0 !important;
+		;
+	}
+	.con-project img {
+		width: 70% !important;
+	}
+	.con-profile div {
+		padding: 5px !important;
+		flex-direction: column !important;
+		height: auto !important;
+		width: fit-content !important;
+	}
+	.content div div h4 a {
+		font-size: 25px !important;
+	}
+	.box .ml-3 {
+		padding-left: 0 !important;
+	}
+	.content div div {
+		word-wrap: break-word;
+	}
+	.content a {
+		width: fit-content !important;
+	}
+	section.content {
+		margin: 0 auto;
+		;
+		width: 85% !important;
+	}
+}
