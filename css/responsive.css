@@ -31,13 +31,15 @@
 
 	#particles-js {
 		height: fit-content !important;
+		position: relative;
 	}
 	#particles-js .container {
 		padding: 40px 20px !important;
 	
 	}
 	canvas.particles-js-canvas-el{
-	
+		position: absolute;
+    top: 0;
 	    height: 550px !important;
   		  		min-height: 550px !important;
 		overflow-y: hidden;
