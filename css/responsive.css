@@ -36,6 +36,7 @@
 	
 		height: max-content !important;
 		min-height: auto !important;
+		overflow-y: hidden;
 		overflow: hidden !important;
 	}
 	
