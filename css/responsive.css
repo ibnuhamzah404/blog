@@ -32,6 +32,7 @@
 	#particles-js {
 		height: fit-content !important;
 		position: relative;
+		
 	}
 	#particles-js .container {
 		padding: 40px 20px !important;
