@@ -35,8 +35,8 @@
 	canvas.particles-js-canvas-el{
 	
 		height: auto !important;
-		min-height: auto;
-		overflow: hidden;
+		min-height: auto !important;
+		overflow: hidden !important;
 	}
 	
 	#particles-js h3 {
