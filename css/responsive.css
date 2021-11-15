@@ -1,6 +1,6 @@
 
 @media screen and (max-width: 680px) {
-
+	
 	footer{
 		padding-top: 20px !important;
 	}
@@ -13,6 +13,7 @@
 
 	.con-post{
 		width: 95% !important;
+		
 	}
 	.box-article h3, .con-project h3{
 		font-size: 22px !important;
