@@ -109,10 +109,18 @@ ol {
 }
 
 canvas{
+	position: absolute;
+	top : 0;
+	left: 0;;
+	right:0;
 	width: 100%;
    height: 100%;
     padding: 60px 0px !important;
 
+}
+
+div#particles-js{
+	position: relative;
 }
 .no-hover {
 	background-color: #2E2E33 !important;
