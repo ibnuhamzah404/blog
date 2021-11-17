@@ -125,6 +125,7 @@ canvas{
 
 div#particles-js{
 	position: relative;
+	overflow: hidden !important;
 }
 .no-hover {
 	background-color: #2E2E33 !important;
