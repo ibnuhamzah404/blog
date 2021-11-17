@@ -2,10 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ibnuhamzah404.github.io/blog/tags/arduino/</loc>
-    <lastmod>2021-10-08T09:20:46+07:00</lastmod>
+    <loc>https://ibnuhamzah404.github.io/blog/projects/membuat-deret-fibonaci-dengan-cpp/</loc>
+    <lastmod>2021-11-16T21:19:42+07:00</lastmod>
+  </url><url>
+    <loc>https://ibnuhamzah404.github.io/blog/projects/</loc>
+    <lastmod>2021-11-16T21:19:42+07:00</lastmod>
+  </url><url>
+    <loc>https://ibnuhamzah404.github.io/blog/tags/css/</loc>
+    <lastmod>2021-11-16T21:11:59+07:00</lastmod>
+  </url><url>
+    <loc>https://ibnuhamzah404.github.io/blog/posts/menghubungkan-css-dengan-html/</loc>
+    <lastmod>2021-11-16T21:11:59+07:00</lastmod>
   </url><url>
     <loc>https://ibnuhamzah404.github.io/blog/tags/</loc>
+    <lastmod>2021-11-16T21:11:59+07:00</lastmod>
+  </url><url>
+    <loc>https://ibnuhamzah404.github.io/blog/tags/arduino/</loc>
     <lastmod>2021-10-08T09:20:46+07:00</lastmod>
   </url><url>
     <loc>https://ibnuhamzah404.github.io/blog/posts/01-tutorial-arduino/</loc>
