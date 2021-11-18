@@ -2,6 +2,11 @@ html {
 	zoom: 75%;
 }
 
+#disqus_thread iframe{
+    height: 1400px !important;
+
+}
+
 div.con-post{
 	padding: 20px 20px !important;
 }

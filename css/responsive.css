@@ -1,7 +1,10 @@
 
 
 @media screen and (max-width: 680px) {
-	
+	div#layout{
+		min-height: 1200px !important;
+	}
+	  
 	footer{
 		padding-top: 20px !important;
 	}
