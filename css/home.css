@@ -3,7 +3,7 @@ html {
 }
 
 div#disqus_thread > iframe{
-    height: 1400px !important;
+    min-height: 1400px !important;
 
 }
 
