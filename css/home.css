@@ -7,6 +7,18 @@ div#disqus_thread > iframe{
 
 }
 
+.social-box{
+	display: flex;
+    align-items: center;
+	flex-direction: row !important;
+}
+.social-box > a{
+	margin-right: 8px;
+}
+.social-box > a > i{
+	font-size: 35px;
+}
+
 div.con-post{
 	padding: 20px 20px !important;
 }

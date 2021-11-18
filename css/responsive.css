@@ -2,7 +2,11 @@
 
 @media screen and (max-width: 680px) {
 
-	  
+	.social-box{
+		display: flex;
+		align-items: center;
+		flex-direction: row !important;
+	}
 	footer{
 		padding-top: 20px !important;
 	}
