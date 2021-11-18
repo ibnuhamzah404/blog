@@ -7,6 +7,11 @@ div#disqus_thread > iframe{
 
 }
 
+div#disqus_thread{
+	height: fit-content;
+    padding: 100px 0px;
+}
+
 .social-box{
 	display: flex;
     align-items: center;
