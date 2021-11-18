@@ -1,9 +1,7 @@
 
 
 @media screen and (max-width: 680px) {
-	div#layout{
-		min-height: 1200px !important;
-	}
+
 	  
 	footer{
 		padding-top: 20px !important;
@@ -64,15 +62,15 @@
 		width: 90% !important;
 	}
 	.con-project {
-		width: 100% !important;
+		width: 95% !important;
 		flex-direction: column !important;
 		justify-content: center !important;
 		align-items: center !important;
 	}
 	.con-project div {
-		width: 100% !important;
+		width: 95% !important;
 		margin-right: 0 !important;
-		;
+	
 	}
 	.con-project img {
 		width: 70% !important;

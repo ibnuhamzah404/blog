@@ -2,7 +2,7 @@ html {
 	zoom: 75%;
 }
 
-#disqus_thread iframe{
+div#disqus_thread > iframe{
     height: 1400px !important;
 
 }
