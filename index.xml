@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Sep 2021 23:49:09 +0700</lastBuildDate><atom:link href="https://ibnuhamzah404.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Test</title>
+      <link>https://ibnuhamzah404.github.io/blog/projects/test/</link>
+      <pubDate>Sat, 20 Nov 2021 12:29:46 +0700</pubDate>
+      
+      <guid>https://ibnuhamzah404.github.io/blog/projects/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Tutorial Arduino Part-02: Mengenal jenis papan arduino</title>
       <link>https://ibnuhamzah404.github.io/blog/posts/02-tutuorial-arduino/</link>
       <pubDate>Thu, 18 Nov 2021 04:46:25 +0700</pubDate>
