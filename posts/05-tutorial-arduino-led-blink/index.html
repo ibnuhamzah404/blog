@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en">
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="   "/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"/>
+    
+    <meta itemprop="name" content="Tutorial Arduino Part-05: Membuat Program LED Berkedip Atau Blink LED Arduino.">
+<meta itemprop="description" content="Basa Basi 📢  Led blink mirip dengan hello world. mengapa gue katakan mirip dikarnakan ketika kita memulai belajar suatu bahasa pemrograman pastinya kita memulai dengan membuat program sederhana yaitu hello world,sama halnya ketika kita baru memulai belajar pemrograman mikrokontroler biasanya led blink sering dijadikan untuk memulai awal belajar pemrograman mikrokontroler.
+Persyaratan ⚠️ ini merupakan hal hal yang harus temen temen pahami terlebih dahulu untuk memulai pembuatan led blink.
+ memahami elektro dasar diantaranya  hambatan arus daya voltase   memahami bagian bagian beserta fungsi didalam papan arduino memahami sofware arduino IDE."><meta itemprop="datePublished" content="2021-11-22T19:02:40+07:00" />
+<meta itemprop="dateModified" content="2021-11-22T19:02:40+07:00" />
+<meta itemprop="wordCount" content="554">
+<meta itemprop="keywords" content="" />
+    
+    <meta property="og:title" content="Tutorial Arduino Part-05: Membuat Program LED Berkedip Atau Blink LED Arduino." />
+<meta property="og:description" content="Basa Basi 📢  Led blink mirip dengan hello world. mengapa gue katakan mirip dikarnakan ketika kita memulai belajar suatu bahasa pemrograman pastinya kita memulai dengan membuat program sederhana yaitu hello world,sama halnya ketika kita baru memulai belajar pemrograman mikrokontroler biasanya led blink sering dijadikan untuk memulai awal belajar pemrograman mikrokontroler.
+Persyaratan ⚠️ ini merupakan hal hal yang harus temen temen pahami terlebih dahulu untuk memulai pembuatan led blink.
+ memahami elektro dasar diantaranya  hambatan arus daya voltase   memahami bagian bagian beserta fungsi didalam papan arduino memahami sofware arduino IDE." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ibnuhamzah404.github.io/blog/posts/05-tutorial-arduino-led-blink/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-11-22T19:02:40+07:00" />
+<meta property="article:modified_time" content="2021-11-22T19:02:40+07:00" />
+
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Tutorial Arduino Part-05: Membuat Program LED Berkedip Atau Blink LED Arduino."/>
+<meta name="twitter:description" content="Basa Basi 📢  Led blink mirip dengan hello world. mengapa gue katakan mirip dikarnakan ketika kita memulai belajar suatu bahasa pemrograman pastinya kita memulai dengan membuat program sederhana yaitu hello world,sama halnya ketika kita baru memulai belajar pemrograman mikrokontroler biasanya led blink sering dijadikan untuk memulai awal belajar pemrograman mikrokontroler.
+Persyaratan ⚠️ ini merupakan hal hal yang harus temen temen pahami terlebih dahulu untuk memulai pembuatan led blink.
+ memahami elektro dasar diantaranya  hambatan arus daya voltase   memahami bagian bagian beserta fungsi didalam papan arduino memahami sofware arduino IDE."/>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-213458302-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.15/dist/tailwind.min.css">
+   
+    
+    
+    <link  href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+Pro&family=VT323&display=swap" rel="stylesheet">
+    
+    <link  rel="stylesheet" href="https://ibnuhamzah404.github.io/blog/css/home.css">
+    <link   rel="stylesheet" href="https://ibnuhamzah404.github.io/blog/css/responsive.css">
+    
+    
+    <link rel="canonical" href="https://ibnuhamzah404.github.io/blog/#ZgotmplZ">
+    
+
+
+    
+    <link   rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $('body').css('display', 'unset');
+        })
+    </script>
+ 
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-213458302-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+    <title>Tutorial Arduino Part-05: Membuat Program LED Berkedip Atau Blink LED Arduino.</title>
+</head>
+<style>
+  
+.text-white-500{
+  color : white !important;
+}
+
+html{
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+</style>
+    
+  <body >
+  
+    
+
+<ul class="flex shadow-md py-8 ">
+
+  <div class="w-5/6 lg:w-full    mx-auto parent-container container mx-auto  h-full flex justify-between">
+   <div class="con-nav-first ">
+      <a href="https://ibnuhamzah404.github.io/blog/" class="vt323 text-4xl text-black weight-bold vertical flex items-center h-full"> 👨‍💻 Ibnu Hamzah </a>
+    </div>
+  <div class="con-nav-seccond  flex mr-5  w-max h-full ">
+
+  
+        <li class="nav-item ml-3 ">
+          <a class="vt323 text-2xl inline-block  px-3 -500 text-white" href="/blog/blog"> blog</a>
+        </li>     
+  
+  
+  <li class="ml-3 text-xl flex justify-center">
+    <button type="button" id="checkbox" data-theme="light" class="dark-mode-button bg-white hover:bg-gray-100 text-gray-800 font-semibold py-3 px-3 text-xl border border-gray-400 rounded ">🌙</button>
+  </li>
+  <li class="ml-3 text-xl flex justify-center">
+    
+
+<div class="relative inline-flex theme-color">
+<select  class=" lg:block  bg-white hover:bg-gray-100 text-gray-800 font-semibold py-3  sm:px-1 text-xl border border-gray-400 rounded " id="theme-select">
+<option value="default">⬛</option>
+<option value="red">🟥</option>
+<option value="blue">🟦</option>
+<option  value="yellow">🟨</option>
+
+<option  value="purple">🟪</option>
+
+<option value="gray" >⬜</option>
+
+</select>
+</div>
+  </li>
+  
+        
+</div>
+</div>
+
+  
+</ul>
+ 
+
+    
+    <main role="main">
+     
+      
+    
+  <style>
+   
+   div#disqus_thread > iframe{
+    min-height: 1400px !important;
+
+}
+:root.blue {
+  --bg-color: #05396B;
+  --text-color: #E7F1FE;
+}
+
+:root.pink {
+  --bg-color: #ffcad4;
+  --text-color: #e75480;
+}
+
+
+    h1,h2,h3,h4{
+      padding-bottom: 15px;
+    }
+    p{
+      padding-top: 15px;;
+      padding-bottom: 15px;;
+      font-size: 24px;
+    }
+    ol, ul{
+      padding-bottom: 30px;;
+    }
+
+    p > code{
+      background-color: #e0e0e0;
+      color : rgb(46, 44, 44);
+      font-weight: 600;
+    }
+
+    blockquote{
+      margin: 1.5em 0;
+    padding: 1em;
+   
+    width: 100%;
+    color: #6f6f6f;
+    border-left: 4px solid silver;
+    background-color: #fafafa;
+
+    }
+
+    ol li, ul li {
+    
+      font-size: 24px !important;
+    }
+
+   
+    .gist .blob-code-inner{ font-size:20px !important; }
+
+    .gist .gist-meta{
+      font-size:20px !important;
+    }
+
+    .gist tbody{
+      background-color: #F3F4F4 !important;
+    }
+
+    .gist-data{
+      background-color: #F3F4F4 !important;
+    
+    }
+    p{
+      font-family: -apple-system, system-ui, BlinkMacSystemFont;;
+    }
+    
+    h1{
+      font-size: 4vw;
+      line-height: normal;
+      font-weight: bold;
+      font-family:-apple-system, system-ui, BlinkMacSystemFont;
+    }
+
+    
+    h2{
+      font-size: 2.5rem;
+      font-weight: bold;
+      font-family:-apple-system, system-ui, BlinkMacSystemFont;
+    }
+
+    h3{
+      font-size: 2rem;
+      font-weight: bold;
+      font-family:-apple-system, system-ui, BlinkMacSystemFont;
+    }
+
+    img{
+      width: 80%;
+      margin: 0 auto;
+    }
+    h4{
+      font-size: 1.7rem;
+    }
+
+    body{
+      display: none;
+    }
+
+    blockquote p{
+      padding-bottom: 0;
+    }
+
+    p > a{
+      color: #0b91ea !important;
+    }
+
+    article ol, article ul{
+      list-style: unset !important;
+      margin-left: 50px;;
+      padding-bottom:  0 !important;
+    }
+
+    
+  </style>
+
+
+<article id="single" style="min-height : 800px;">
+ 
+ <div class="w-5/6   lg:max-w-screen-xl  mx-auto nes-container mt-5 is-dark member-card" >
+
+  <div class="avatar">
+    
+
+  
+
+ </div>
+</div>
+  
+<div class="w-5/6  mt-8 lg:max-w-screen-xl  mx-auto lg:px-10 sm:px-5"><div class="avatar">
+  <h1 class="lg:text-6xl sm:text-xl font-normal text-dark vt323" style="text-decoration: underline;">Tutorial Arduino Part-05: Membuat Program LED Berkedip Atau Blink LED Arduino. <div class="blink_me inline-block">|</div></h1>
+  <p class="light-font text-xl font-semibold post-details">Written by <a href="/me">ibnu hamzah</a> on <time>Nov-22-2021</time></p>  
+  <div class="nes-container with-title ">
+       
+
+        <div class="text-gray-800 mt-10"><h2 class="className text-1xl  press-start" attrName="attrValue" id="basa-basi-">Basa Basi 📢 </h2>
+<p class="light-font"><strong>Led blink</strong> mirip dengan <strong>hello world</strong>. mengapa gue katakan mirip dikarnakan ketika kita memulai belajar suatu bahasa pemrograman pastinya kita memulai dengan membuat program sederhana yaitu <strong>hello world</strong>,sama halnya ketika kita baru memulai belajar pemrograman <em><strong>mikrokontroler</strong></em> biasanya led blink sering dijadikan untuk memulai awal belajar pemrograman <em><strong>mikrokontroler</strong></em>.</p>
+<h2 class="className text-1xl  press-start" attrName="attrValue" id="persyaratan-">Persyaratan ⚠️</h2>
+<p class="light-font">ini merupakan hal hal yang harus temen temen pahami terlebih dahulu untuk memulai pembuatan led blink.</p>
+<ul>
+<li>memahami elektro dasar diantaranya
+<ul>
+<li>hambatan</li>
+<li>arus</li>
+<li>daya</li>
+<li>voltase</li>
+</ul>
+</li>
+<li>memahami bagian bagian beserta fungsi didalam papan arduino</li>
+<li>memahami sofware arduino IDE.</li>
+</ul>
+<p class="light-font">alangkah baiknya temen temen memahami syarat diatas terlebih dahulu untuk menghindari kesalahan kesalahan saat pembuatan led blink ini.</p>
+<h2 class="className text-1xl  press-start" attrName="attrValue" id="tujuan-">Tujuan 🚀 </h2>
+<p class="light-font">Membuat rangkaian LED agar LED dapat menyala selama 1 detik dan padam dalam 1 detik secara berulang</p>
+<h2 class="className text-1xl  press-start" attrName="attrValue" id="goals-">Goals 🛣️ </h2>
+<p class="light-font">jika kita ingin membuat sesuatu yang rumit pastinya dimulai dari yang sederhana dulu bukan?</p>
+<p class="light-font">goals dari pembelajaran ini ialah:</p>
+<ul>
+<li>memahami cara untuk mengontrol pin digital I/O.</li>
+<li>mehamami pembuatan rangkaian led blink.</li>
+<li>memahami program led blink.</li>
+</ul>
+<p class="light-font">itu merupakan goals dari pembelajaran kali ini</p>
+<h2 class="className text-1xl  press-start" attrName="attrValue" id="alat-dan-bahan-">Alat Dan Bahan 🔧 </h2>
+<ul>
+<li>1 Buah Arduino</li>
+<li>1 Buah papan perobaan / <strong>breadboard</strong></li>
+<li>1 buah lED 3mm atau LED 5mm</li>
+<li>2 Buah kabel jumper</li>
+<li>1 Kabel usb arduino</li>
+<li>1 Resistor 220ohms</li>
+</ul>
+<h2 class="className text-1xl  press-start" attrName="attrValue" id="sedikit-teori-tentang-led">Sedikit Teori Tentang LED </h2>
+<p class="light-font"><strong>LED</strong> merupakan singkatan dari <em><strong>Light Emitting Diode.</strong></em> adalah sebuah komponen elektronika yang dapat memanacarkan cahaya, <strong>LED</strong> ini memiliki polaritas yaitu <code>anoda</code>  dan <code>katoda</code>, anoda adalah positif dan katoda adalah negatif. <strong>LED</strong> juga merupakan keluarga dioda sudah kita ketahui bersama dioda tidak bisa dialiri arus juga terbalik polaritasnya. Warna-warna Cahaya yang dipancarkan oleh <strong>LED</strong> tergantung pada jenis bahan semikonduktor yang dipergunakannya.</p>
+<blockquote>
+<p class="light-font">💡 INFO PENTING  : Tiap tiap warna <strong>LED</strong> memiliki <em><strong>Forward Bias</strong></em> atau <code>tegangan maju</code>, hal ini perlu diperhatikan dikarnakan tegangan maju <strong>LED</strong> tergolong rendah jika arus sumber melebihi tegangan maju <strong>LED</strong> maka harus diberi <em><strong>resistor</strong></em> untuk mengurangi arus yang mengalir agar tidak merusak <strong>LED</strong>.</p>
+</blockquote>
+<p class="light-font">ini merupakan tegangan maju berdasarkan warna.</p>
+<ul>
+<li>Merah : 1,8 V – 2,1 V</li>
+<li>Orange : 2,2 V</li>
+<li>Kuning : 2,4 V</li>
+<li>Hijau : 2,6 V</li>
+<li>Biru : 3,0 V – 3,5 V</li>
+<li>Putih : 3,0 – 3,6 V</li>
+</ul>
+<h2 class="className text-1xl  press-start" attrName="attrValue" id="gambar-rangkaian">Gambar Rangkaian </h2>
+<p class="light-font"><img src="https://ibnuhamzah404.github.io/blog/images/rangkaian_blink_led.png" alt="Gambar : Download Arduino IDE"></p>
+<h2 class="className text-1xl  press-start" attrName="attrValue" id="menghitung-nilai-resistor">Menghitung Nilai Resistor</h2>
+<p class="light-font">mengapa menggunakan <em><strong>resistor</strong></em> <code>200ohms</code> ?</p>
+<p class="light-font">pasti teman teman pemula bingung untuk menentukan nilai <em><strong>resistor</strong></em> yang ideal untuk  rangkaian diatas.</p>
+<p class="light-font">untuk mencari nilai <em><strong>resistor</strong></em> / hambatan kita perlu tau tentang rumus segitiga ohms.</p>
+<p class="light-font"><img src="https://ibnuhamzah404.github.io/blog/images/gaada_garis.png" alt="Gambar : Download Arduino IDE"></p>
+<p class="light-font">dari gambar diatas kita sudah mengetahui bahwasanya untuk mencari hambatan/ resistor dapat menggunakan turunan rumus <code>R = V / I</code>.</p>
+<p class="light-font">V = VS - VLED
+V = 5V - 1,8
+V = 2,2</p>
+<p class="light-font">R = 2,2V / 0,35A
+<code>R = 91.ohms</code></p>
+<p class="light-font">kita mendapatkan <code> 91ohms</code> nah itu ukuran minimum resistor yang digunakan sebaiknya lebih tinggi nilainya agar resistor tidak panas dan led tetap awet gue mengambil resistor <code>220ohms</code> dikarnakan cuma ukuran resistor itu yang dirumah hehe.</p>
+<p class="light-font">oke itu sedikit pengetahuan tentang hambatan next artikel gue akan bahas ohms law lebih detail lagi link menyusul ya.</p>
+<h2 class="className text-1xl  press-start" attrName="attrValue" id="lets-code">Lets Code!</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#75715e">/* Project : Blinking LED
+</span><span style="color:#75715e"> * Created By Ibnuhamzah
+</span><span style="color:#75715e"> * Tutorial Project lengkap https://ibnuhamzah404.github.io/blog/
+</span><span style="color:#75715e"> */</span>
+
+<span style="color:#75715e">#define LED 12  </span><span style="color:#75715e">// PIN LED terhubung ke PIN 2 I/O Arduino
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setup</span>() {
+  pinMode(LED, OUTPUT);  <span style="color:#75715e">// Konfigurasi pin LED sebagai output
+</span><span style="color:#75715e"></span>  }
+
+<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">loop</span>() {
+
+  <span style="color:#75715e">//LED menyala selama 1 detik kemudian padam selama 1 detik juga
+</span><span style="color:#75715e"></span>  
+  digitalWrite(LED,HIGH); delay(<span style="color:#ae81ff">1000</span>);
+  digitalWrite(LED, LOW); delay(<span style="color:#ae81ff">1000</span>);
+}</code></pre></div>
+<blockquote>
+<p class="light-font">💡 Just Info : Satuan waktu dalam fungsi <code> delay</code> itu <code>milidetik</code>.<strong>1000 milidetik</strong> sama dengan <strong>1 detik</strong></p>
+</blockquote>
+</div>
+       
+      </div>
+</div>  
+<hr>
+
+
+<hr>
+<div class="box-prev-next flex justify-between my-10">
+  <div class="box">
+    
+    <a class="text-3xl list-font ssp text-gray-700" href="https://ibnuhamzah404.github.io/blog/posts/04-tutorial-arduino-mengenal-bagian-bagian-arduino/"><i class="mr-3 fa fa-arrow-left"> </i>Tutorial Arduino Part-04: …</a>
+  
+
+  </div>
+  <div class="box">
+    
+
+  </div>
+</div>
+
+<div id="disqus_thread"></div>
+<script>
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://cuitanibnuhamzah.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</article>
+
+
+
+
+    
+    </main>
+    
+    <div class=""  style="background-color: #090085;">
+  
+    </div>
+
+
+
+<script type="text/javascript" src=" https://ibnuhamzah404.github.io/blog/js/all.js" ></script>
+<script type="text/javascript" >
+
+const setTheme = theme => document.documentElement.className = theme;
+var themeColor = ["red","blue", "green", "purple", "yellow", "gray", "white", "black", 'pink'];
+$('#theme-select').on('change', function() {
+  localStorage.setItem("theme", this.value);
+  
+  if(localStorage.getItem("dark-mode-storage") == 'night' && this.value == 'default' ){
+	localStorage.setItem("theme", 'white');
+  }else if(localStorage.getItem("dark-mode-storage") == 'light' && this.value == 'default' ){
+	localStorage.setItem("theme", 'black');
+  }
+
+  $.each( themeColor, function( i, color ){
+		
+		delClass(color)
+			
+
+		if (localStorage.getItem("theme") == color) {
+			toogClass(color)
+			
+		}
+
+	
+	});
+  
+});
+
+$(document).ready(function(){
+	if (localStorage.getItem("theme") === null) {
+		localStorage.setItem("dark-mode-storage", 'light');
+		localStorage.setItem("theme", 'black');
+	}
+	
+	
+	if(localStorage.getItem("theme")== "black" ||localStorage.getItem("theme") == "white"){
+		var seldefault = $('#theme-select').val('default');
+		seldefault.prop('selected', true);
+	}else{
+		var selbox = $("#theme-select").val(localStorage.getItem("theme"));
+		selbox.prop('selected', true);
+	}
+	
+	
+	
+	
+	$.each( themeColor, function( i, color ){
+		if (localStorage.getItem("theme") == color) {
+			toogClass(color);
+		}
+	});
+	
+
+	
+});
+function delClass(color){
+	$('#single strong').each(function(){
+				$(this).removeClass('text-' + color  + '-500');
+			
+			});
+
+			for (var i = 1; i <= 6; i++) {
+			
+				$('#single  h' + i).removeClass('text-' + color + '-500');
+				
+			}
+}
+
+function toogClass(color){
+	for (var i = 1; i <= 6; i++) {
+				$('#single  h' + i).toggleClass('text-' + color + '-500');
+		}
+
+			$('#single strong').each(function(){
+				$(this).toggleClass('text-' + color + '-500');
+			});
+}
+
+
+
+
+
+
+
+</script>
+
+
+
+  
+  </body>
+</html>
