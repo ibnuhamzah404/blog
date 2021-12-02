@@ -13,10 +13,11 @@
       <pubDate>Sun, 21 Nov 2021 00:57:15 +0700</pubDate>
       
       <guid>https://ibnuhamzah404.github.io/blog/posts/04-tutorial-arduino-mengenal-bagian-bagian-arduino/</guid>
-      <description>Hello from Hugo! If you&amp;rsquo;re reading this in your browser, good job! The file content/post/hello-hugo.md has been converted into a complete HTML document by Hugo. Isn&amp;rsquo;t that pretty nifty?
-A Section Here&amp;rsquo;s a simple titled section where you can place whatever information you want.
-You can use inline HTML if you want, but really there&amp;rsquo;s not much that Markdown can&amp;rsquo;t do.
-Showing off with Markdown A full cheat sheet can be found here or through Google.</description>
+      <description>Basa Basi 💡  Hai temen temen semua, udah lama ga update artikel lagi.
+di artikel kemarin kita sudah membahas Cara menginstal arduino ide di windows.
+kali ini kita akan belajar tentang kita mengenal bagian bagian pada arduino uno dan fungsinya
+langsung aja kita bahas lets goo.
+ 💡 INFO SINGKATAN 💡 USB : Universal Serial Bus VDC : Volt DC IC : Integrated Circuit. LED : Light Emitting Diode</description>
     </item>
     
   </channel>
