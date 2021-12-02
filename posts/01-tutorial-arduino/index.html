@@ -260,7 +260,105 @@ html{
       padding-bottom:  0 !important;
     }
 
-    
+    @font-face {
+  font-family: "icons-boxes";
+  src: url("../fonts/icons-boxes.eot?bzmaom");
+  src: url("../fonts/icons-boxes.eot?bzmaom#iefix") format("embedded-opentype"),
+    url("../fonts/icons-boxes.ttf?bzmaom") format("truetype"),
+    url("../fonts/icons-boxes.woff?bzmaom") format("woff"),
+    url("../fonts/icons-boxes.svg?bzmaom#icomoon-notices") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+
+[class^="boxes"],
+[class*=" boxes"] {
+  background-color: #fffeb4a3;
+    padding: 0.8em 1em 1em 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    -webkit-boxes-shadow: 3px 3px 5px 0px rgb(0 0 0 / 20%);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 5px 0px rgb(29 21 21 / 20%);
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="boxes"]::before {
+  padding-left: 0.4em;
+  padding-right: 0.8em;
+}
+
+span.textbox{
+  font-size: 25px;
+}
+
+
+ 
+
+.boxesBell:before {
+  content: "🔔";
+  color: #9f6000;
+  font-size: 25px;
+}
+.boxesCheck:before {
+  content: "✅";
+  color: #4f8a10;
+  font-size: 25px;
+}
+.boxesComment:before {
+  content: "\f075";
+  font-size: 25px;
+}
+.boxesHeart:before {
+  content: "\f004";
+  font-size: 25px;
+}
+.boxesInfo:before {
+  content: "ℹ️";
+  color: #00529b;
+  font-size: 25px;
+}
+
+.boxesPlus:before {
+  content: "\f067";
+  font-size: 25px;
+}
+.boxesStar:before {
+  content: "\f005";
+  font-size: 25px;
+}
+.boxesWarning:before {
+  content: "\f06a";
+  font-size: 25px;
+}
+
+ 
+
+.boxesBell {
+  background-color: #f1f500a4;
+}
+
+.boxesWarning {
+  color: #fff;
+  background-color: rgba(217, 83, 79, 0.9);
+}
+
+.boxesCheck {
+  background-color: #dff2bf;
+}
+
+.boxesInfo {
+  background-color: #bde5f8;
+}
+
   </style>
 
 
@@ -291,11 +389,11 @@ html{
 <p class="light-font">tetapi seiring kalian belajar arduino kalian akan bisa menarik kesimpulan sendiri kok gue yakin, jadi terus belajar yap temen temen.</p>
 <p class="light-font">gue anggap kalian sudah paham pengertian arduino kita lanjut ya ketahapan belajar arduino.</p>
 <h2 class="className text-4xl press-start" attrName="attrValue" id="tahapan-memulai-belajar-arduino">Tahapan memulai belajar arduino </h2>
-<p class="light-font"><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p class="light-font"><br><br></p>
 <h3 class="className text-2xl press-start" attrName="attrValue" id="1pemilihan-papan-arduino">1.Pemilihan papan arduino</h3>
 <p class="light-font">Arduino memiliki berbagai macam versi ada arduino uno, nano, lenardo, pro micro dan masih banyak lagi, dari sekian banyak versi pastinya dipergunakann untuk fungsi yang berbeda beda juga, jika temen temen baru ingin memulai belajar gue saranin beli aja arduino uno ataupun arduino nano, jika temen temen yang ada budge lebih, gue saranin beli uno, jiki budget temen temen terbatas beli nano sudah cukup kok. Untuk jenis jenis papan arduino gue akan membahasnya dilain waktu secara lengkap.</p>
 <p class="light-font">ohya jika temen temen belum punya papan arduino, temen temen juga bisa belajar tanpa arduinonya loh, memlalui sofware simulasi, nih salah satunya disini di <a href="https://tinkercad.com">tinkercad</a>.</p>
-<p class="light-font"><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p class="light-font"><br><br></p>
 <h3 class="className text-2xl press-start" attrName="attrValue" id="2instal-sofware-ide-arduino-dan-pemasangan-driver">2.Instal Sofware IDE Arduino dan pemasangan driver.</h3>
 <p class="light-font">jika teman teman sudah memiliki papan arduino, langkah selanjutnya teman teman harus menginstal sebuah sofware untuk memprogram arduino teman teman nantinya.</p>
 <p class="light-font">banyak sofware yang bisa dipergunakan untuk memprogram arduino, tetapi sofware yang paling banyak dipakai yaitu sofware bawaan arduino itu sendiri yaitu arduino ide teman teman bisa mengunjungi situsnya untuk mendonload sofware nya <a href="https://www.arduino.cc/en/software">disini</a> atau kalian juga bisa menggunakan texteditor untuk meprogram arduino seperti visualstudiocode dan lain lain.</p>

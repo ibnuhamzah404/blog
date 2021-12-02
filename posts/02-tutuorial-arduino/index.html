@@ -278,7 +278,105 @@ html{
       padding-bottom:  0 !important;
     }
 
-    
+    @font-face {
+  font-family: "icons-boxes";
+  src: url("../fonts/icons-boxes.eot?bzmaom");
+  src: url("../fonts/icons-boxes.eot?bzmaom#iefix") format("embedded-opentype"),
+    url("../fonts/icons-boxes.ttf?bzmaom") format("truetype"),
+    url("../fonts/icons-boxes.woff?bzmaom") format("woff"),
+    url("../fonts/icons-boxes.svg?bzmaom#icomoon-notices") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+
+[class^="boxes"],
+[class*=" boxes"] {
+  background-color: #fffeb4a3;
+    padding: 0.8em 1em 1em 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    -webkit-boxes-shadow: 3px 3px 5px 0px rgb(0 0 0 / 20%);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 5px 0px rgb(29 21 21 / 20%);
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="boxes"]::before {
+  padding-left: 0.4em;
+  padding-right: 0.8em;
+}
+
+span.textbox{
+  font-size: 25px;
+}
+
+
+ 
+
+.boxesBell:before {
+  content: "🔔";
+  color: #9f6000;
+  font-size: 25px;
+}
+.boxesCheck:before {
+  content: "✅";
+  color: #4f8a10;
+  font-size: 25px;
+}
+.boxesComment:before {
+  content: "\f075";
+  font-size: 25px;
+}
+.boxesHeart:before {
+  content: "\f004";
+  font-size: 25px;
+}
+.boxesInfo:before {
+  content: "ℹ️";
+  color: #00529b;
+  font-size: 25px;
+}
+
+.boxesPlus:before {
+  content: "\f067";
+  font-size: 25px;
+}
+.boxesStar:before {
+  content: "\f005";
+  font-size: 25px;
+}
+.boxesWarning:before {
+  content: "\f06a";
+  font-size: 25px;
+}
+
+ 
+
+.boxesBell {
+  background-color: #f1f500a4;
+}
+
+.boxesWarning {
+  color: #fff;
+  background-color: rgba(217, 83, 79, 0.9);
+}
+
+.boxesCheck {
+  background-color: #dff2bf;
+}
+
+.boxesInfo {
+  background-color: #bde5f8;
+}
+
   </style>
 
 

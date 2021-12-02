@@ -9,13 +9,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"/>
     
     <meta itemprop="name" content="Tutorial Arduino Part-04: Mengenal Bagian Bagian Pada Arduino">
-<meta itemprop="description" content=" tes Tes2  "><meta itemprop="datePublished" content="2021-11-21T00:57:15+07:00" />
+<meta itemprop="description" content="Hello from Hugo! If you&rsquo;re reading this in your browser, good job! The file content/post/hello-hugo.md has been converted into a complete HTML document by Hugo. Isn&rsquo;t that pretty nifty?
+A Section Here&rsquo;s a simple titled section where you can place whatever information you want.
+You can use inline HTML if you want, but really there&rsquo;s not much that Markdown can&rsquo;t do.
+Showing off with Markdown A full cheat sheet can be found here or through Google."><meta itemprop="datePublished" content="2021-11-21T00:57:15+07:00" />
 <meta itemprop="dateModified" content="2021-11-21T00:57:15+07:00" />
-<meta itemprop="wordCount" content="2">
+<meta itemprop="wordCount" content="144">
 <meta itemprop="keywords" content="arduino,NEW!!," />
     
     <meta property="og:title" content="Tutorial Arduino Part-04: Mengenal Bagian Bagian Pada Arduino" />
-<meta property="og:description" content=" tes Tes2  " />
+<meta property="og:description" content="Hello from Hugo! If you&rsquo;re reading this in your browser, good job! The file content/post/hello-hugo.md has been converted into a complete HTML document by Hugo. Isn&rsquo;t that pretty nifty?
+A Section Here&rsquo;s a simple titled section where you can place whatever information you want.
+You can use inline HTML if you want, but really there&rsquo;s not much that Markdown can&rsquo;t do.
+Showing off with Markdown A full cheat sheet can be found here or through Google." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ibnuhamzah404.github.io/blog/posts/04-tutorial-arduino-mengenal-bagian-bagian-arduino/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-11-21T00:57:15+07:00" />
@@ -24,7 +30,10 @@
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Tutorial Arduino Part-04: Mengenal Bagian Bagian Pada Arduino"/>
-<meta name="twitter:description" content=" tes Tes2  "/>
+<meta name="twitter:description" content="Hello from Hugo! If you&rsquo;re reading this in your browser, good job! The file content/post/hello-hugo.md has been converted into a complete HTML document by Hugo. Isn&rsquo;t that pretty nifty?
+A Section Here&rsquo;s a simple titled section where you can place whatever information you want.
+You can use inline HTML if you want, but really there&rsquo;s not much that Markdown can&rsquo;t do.
+Showing off with Markdown A full cheat sheet can be found here or through Google."/>
 
     
 <script type="application/javascript">
@@ -257,7 +266,105 @@ html{
       padding-bottom:  0 !important;
     }
 
-    
+    @font-face {
+  font-family: "icons-boxes";
+  src: url("../fonts/icons-boxes.eot?bzmaom");
+  src: url("../fonts/icons-boxes.eot?bzmaom#iefix") format("embedded-opentype"),
+    url("../fonts/icons-boxes.ttf?bzmaom") format("truetype"),
+    url("../fonts/icons-boxes.woff?bzmaom") format("woff"),
+    url("../fonts/icons-boxes.svg?bzmaom#icomoon-notices") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+
+[class^="boxes"],
+[class*=" boxes"] {
+  background-color: #fffeb4a3;
+    padding: 0.8em 1em 1em 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    -webkit-boxes-shadow: 3px 3px 5px 0px rgb(0 0 0 / 20%);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 5px 0px rgb(29 21 21 / 20%);
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="boxes"]::before {
+  padding-left: 0.4em;
+  padding-right: 0.8em;
+}
+
+span.textbox{
+  font-size: 25px;
+}
+
+
+ 
+
+.boxesBell:before {
+  content: "🔔";
+  color: #9f6000;
+  font-size: 25px;
+}
+.boxesCheck:before {
+  content: "✅";
+  color: #4f8a10;
+  font-size: 25px;
+}
+.boxesComment:before {
+  content: "\f075";
+  font-size: 25px;
+}
+.boxesHeart:before {
+  content: "\f004";
+  font-size: 25px;
+}
+.boxesInfo:before {
+  content: "ℹ️";
+  color: #00529b;
+  font-size: 25px;
+}
+
+.boxesPlus:before {
+  content: "\f067";
+  font-size: 25px;
+}
+.boxesStar:before {
+  content: "\f005";
+  font-size: 25px;
+}
+.boxesWarning:before {
+  content: "\f06a";
+  font-size: 25px;
+}
+
+ 
+
+.boxesBell {
+  background-color: #f1f500a4;
+}
+
+.boxesWarning {
+  color: #fff;
+  background-color: rgba(217, 83, 79, 0.9);
+}
+
+.boxesCheck {
+  background-color: #dff2bf;
+}
+
+.boxesInfo {
+  background-color: #bde5f8;
+}
+
   </style>
 
 
@@ -279,10 +386,21 @@ html{
   <div class="nes-container with-title ">
        
 
-        <div class="text-gray-800 mt-10"><ul>
-<li>tes</li>
-<li>Tes2</li>
-</ul>
+        <div class="text-gray-800 mt-10"><p class="light-font">Hello from Hugo! If you&rsquo;re reading this in your browser, good job! The file <code>content/post/hello-hugo.md</code> has been
+converted into a complete HTML document by Hugo. Isn&rsquo;t that pretty nifty?</p>
+<h2 id="a-section">A Section</h2>
+<p class="light-font">Here&rsquo;s a simple titled section where you can place whatever information you want.</p>
+<p class="light-font">You can use inline HTML if you want, but really there&rsquo;s not much that Markdown can&rsquo;t do.</p>
+<h2 id="showing-off-with-markdown">Showing off with Markdown</h2>
+<p class="light-font">A full cheat sheet can be found <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">here</a>
+or through <a href="https://google.com/">Google</a>.</p>
+<p class="light-font">There are some <em>easy</em> examples for styling, though. I can&rsquo;t <strong>emphasize</strong> that enough.
+Creating <a href="https://google.com/">links</a> or <code>inline code</code> blocks are very straightforward.</p>
+<pre><code>There are some *easy* examples for styling, though. I can't **emphasize** that enough.
+Creating [links](https://google.com/) or `inline code` blocks are very straightforward.
+</code></pre><p class="light-font">.boxInfo</p>
+<h2 id="front-matter-for-fun">Front Matter for Fun</h2>
+<p class="light-font">This is the meta data for this post. It is located at the top of the <code>content/post/hello-hugo.md</code> markdown file.</p>
 </div>
        
       </div>

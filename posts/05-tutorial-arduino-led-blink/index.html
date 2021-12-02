@@ -13,8 +13,8 @@
 Persyaratan ⚠️ ini merupakan hal hal yang harus temen temen pahami terlebih dahulu untuk memulai pembuatan led blink.
  memahami elektro dasar diantaranya  hambatan arus daya voltase   memahami bagian bagian beserta fungsi didalam papan arduino memahami sofware arduino IDE."><meta itemprop="datePublished" content="2021-11-22T19:02:40+07:00" />
 <meta itemprop="dateModified" content="2021-11-22T19:02:40+07:00" />
-<meta itemprop="wordCount" content="554">
-<meta itemprop="keywords" content="" />
+<meta itemprop="wordCount" content="557">
+<meta itemprop="keywords" content="arduino," />
     
     <meta property="og:title" content="Tutorial Arduino Part-05: Membuat Program LED Berkedip Atau Blink LED Arduino." />
 <meta property="og:description" content="Basa Basi 📢  Led blink mirip dengan hello world. mengapa gue katakan mirip dikarnakan ketika kita memulai belajar suatu bahasa pemrograman pastinya kita memulai dengan membuat program sederhana yaitu hello world,sama halnya ketika kita baru memulai belajar pemrograman mikrokontroler biasanya led blink sering dijadikan untuk memulai awal belajar pemrograman mikrokontroler.
@@ -263,7 +263,105 @@ html{
       padding-bottom:  0 !important;
     }
 
-    
+    @font-face {
+  font-family: "icons-boxes";
+  src: url("../fonts/icons-boxes.eot?bzmaom");
+  src: url("../fonts/icons-boxes.eot?bzmaom#iefix") format("embedded-opentype"),
+    url("../fonts/icons-boxes.ttf?bzmaom") format("truetype"),
+    url("../fonts/icons-boxes.woff?bzmaom") format("woff"),
+    url("../fonts/icons-boxes.svg?bzmaom#icomoon-notices") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+
+[class^="boxes"],
+[class*=" boxes"] {
+  background-color: #fffeb4a3;
+    padding: 0.8em 1em 1em 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    -webkit-boxes-shadow: 3px 3px 5px 0px rgb(0 0 0 / 20%);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 5px 0px rgb(29 21 21 / 20%);
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="boxes"]::before {
+  padding-left: 0.4em;
+  padding-right: 0.8em;
+}
+
+span.textbox{
+  font-size: 25px;
+}
+
+
+ 
+
+.boxesBell:before {
+  content: "🔔";
+  color: #9f6000;
+  font-size: 25px;
+}
+.boxesCheck:before {
+  content: "✅";
+  color: #4f8a10;
+  font-size: 25px;
+}
+.boxesComment:before {
+  content: "\f075";
+  font-size: 25px;
+}
+.boxesHeart:before {
+  content: "\f004";
+  font-size: 25px;
+}
+.boxesInfo:before {
+  content: "ℹ️";
+  color: #00529b;
+  font-size: 25px;
+}
+
+.boxesPlus:before {
+  content: "\f067";
+  font-size: 25px;
+}
+.boxesStar:before {
+  content: "\f005";
+  font-size: 25px;
+}
+.boxesWarning:before {
+  content: "\f06a";
+  font-size: 25px;
+}
+
+ 
+
+.boxesBell {
+  background-color: #f1f500a4;
+}
+
+.boxesWarning {
+  color: #fff;
+  background-color: rgba(217, 83, 79, 0.9);
+}
+
+.boxesCheck {
+  background-color: #dff2bf;
+}
+
+.boxesInfo {
+  background-color: #bde5f8;
+}
+
   </style>
 
 
@@ -344,13 +442,16 @@ html{
 <p class="light-font">untuk mencari nilai <em><strong>resistor</strong></em> / hambatan kita perlu tau tentang rumus segitiga ohms.</p>
 <p class="light-font"><img src="https://ibnuhamzah404.github.io/blog/images/gaada_garis.png" alt="Gambar : Download Arduino IDE"></p>
 <p class="light-font">dari gambar diatas kita sudah mengetahui bahwasanya untuk mencari hambatan/ resistor dapat menggunakan turunan rumus <code>R = V / I</code>.</p>
-<p class="light-font">V = VS - VLED
-V = 5V - 1,8
-V = 2,2</p>
-<p class="light-font">R = 2,2V / 0,35A
+<p class="light-font">V = VS - VLED <br>
+V = 5V - 1,8 <br>
+V = 3.2 <br>
+R = 3,2V / 0,035A <br>
 <code>R = 91.ohms</code></p>
 <p class="light-font">kita mendapatkan <code> 91ohms</code> nah itu ukuran minimum resistor yang digunakan sebaiknya lebih tinggi nilainya agar resistor tidak panas dan led tetap awet gue mengambil resistor <code>220ohms</code> dikarnakan cuma ukuran resistor itu yang dirumah hehe.</p>
 <p class="light-font">oke itu sedikit pengetahuan tentang hambatan next artikel gue akan bahas ohms law lebih detail lagi link menyusul ya.</p>
+<p class="light-font">.box</p>
+<div class="boxesCheck"> <span class="textbox"> tes </span></div>
+<p class="light-font">.</p>
 <h2 class="className text-1xl  press-start" attrName="attrValue" id="lets-code">Lets Code!</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#75715e">/* Project : Blinking LED
 </span><span style="color:#75715e"> * Created By Ibnuhamzah
@@ -379,6 +480,19 @@ V = 2,2</p>
 </div>  
 <hr>
 
+
+<h3 class="mt-9">Postingan Terkait</h3>
+<ul>
+	
+	<li><a href="/blog/posts/04-tutorial-arduino-mengenal-bagian-bagian-arduino/">Tutorial Arduino Part-04: Mengenal Bagian Bagian Pada Arduino</a></li>
+	
+	<li><a href="/blog/posts/03-tutorial-install-arduino-ide-pada-windows-10/">Tutorial Arduino Part-03: Cara Install Arduino Ide Pada Windows</a></li>
+	
+	<li><a href="/blog/posts/02-tutuorial-arduino/">Tutorial Arduino Part-02: Mengenal jenis papan arduino</a></li>
+	
+	<li><a href="/blog/posts/01-tutorial-arduino/">Tutorial Arduino Part-01: Persiapan Awal Memulai Belajar Arduino!</a></li>
+	
+</ul>
 
 <hr>
 <div class="box-prev-next flex justify-between my-10">
