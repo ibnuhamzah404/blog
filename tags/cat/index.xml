@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cat on Blog coding asik</title>
-    <link>https://example.org/tags/cat/</link>
-    <description>Recent content in cat on Blog coding asik</description>
+    <title>cat on My New Hugo Site</title>
+    <link>https://ibnuhamzah404.github.io/blog/tags/cat/</link>
+    <description>Recent content in cat on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 05 Sep 2021 19:54:45 +0700</lastBuildDate><atom:link href="https://example.org/tags/cat/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Sep 2021 19:54:45 +0700</lastBuildDate><atom:link href="https://ibnuhamzah404.github.io/blog/tags/cat/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Post 2</title>
-      <link>https://example.org/blog/blog-post-2/</link>
+      <title>Hallo </title>
+      <link>https://ibnuhamzah404.github.io/blog/posts/blog-post-2/</link>
       <pubDate>Sun, 05 Sep 2021 19:54:45 +0700</pubDate>
       
-      <guid>https://example.org/blog/blog-post-2/</guid>
-      <description>Why do we use it?
-paragraf It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;lsquo;Content here, content here&amp;rsquo;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &amp;lsquo;lorem ipsum&amp;rsquo; will uncover many web sites still in their infancy.</description>
+      <guid>https://ibnuhamzah404.github.io/blog/posts/blog-post-2/</guid>
+      <description>⚡ Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;lsquo;Content here, content here&amp;rsquo;, making it look like readable English. Many desktop publishing
+ It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</description>
     </item>
     
   </channel>

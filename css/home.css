@@ -272,7 +272,7 @@ bg-tags-3 {
 }
 
 .btn {
-	box-shadow: inset -4px -4px 0px 0px #0d0d0e;
+	box-shadow: inset -2px -8px 0px 0px #0d0d0e;
 }
 
 /* hover */
@@ -290,4 +290,11 @@ bg-tags-3 {
 .no-hover:hover {
 	background-color: #232325 !important;
 	cursor: pointer !important;
+}
+
+hr.section-break::after {
+    display: block;
+    content: '§§§';
+    text-align: center;
+    margin-top: -0.75rem;
 }
