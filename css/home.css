@@ -292,9 +292,3 @@ bg-tags-3 {
 	cursor: pointer !important;
 }
 
-hr.section-break::after {
-    display: block;
-    content: '§§§';
-    text-align: center;
-    margin-top: -0.75rem;
-}

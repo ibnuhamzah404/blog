@@ -50,13 +50,14 @@ if (!doNotTrack) {
     
     <link  rel="stylesheet" href="https://ibnuhamzah404.github.io/blog/css/home.css">
     <link   rel="stylesheet" href="https://ibnuhamzah404.github.io/blog/css/responsive.css">
+    <link   rel="stylesheet" href="https://ibnuhamzah404.github.io/blog/css/navbar.css">
     
     
     <link rel="canonical" href="https://ibnuhamzah404.github.io/blog/#ZgotmplZ">
     
 
 
-    
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 100 100&quot;><text y=&quot;.9em&quot; font-size=&quot;90&quot;>☕</text></svg>">
     <link   rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
@@ -95,8 +96,40 @@ html{
   <body >
   
     
+<nav class="lg:hidden block nav flex flex-wrap items-center justify-between px-4" style="padding : 20px 10px;">
+  <div class=" flex flex-no-shrink items-center mr-6 py-3 text-grey-darkest">
+    
+    <span class="font-semibold text-xl tracking-tight">👨‍💻 Ibnu Hamzah</span>
+  </div>
 
-<ul class="flex shadow-md py-8 ">
+  <input class="menu-btn hidden" type="checkbox" id="menu-btn">
+
+    
+  <label class="menu-icon block cursor-pointer md:hidden px-2 py-4 relative select-none" for="menu-btn">
+    <span class="navicon bg-grey-darkest flex items-center relative"></span>
+  </label>
+
+  <ul class="menu border-b md:border-none flex justify-end list-reset m-0 w-full md:w-auto">
+    <li class="border-t md:border-none">
+      <a href="/" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker font-bold">Home</a>
+    </li>
+    
+    
+        <li class=" border-t md:border-none ">
+          <a class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker font-bold" href="/blog/posts"> posts</a>
+        </li>     
+  
+        <li class=" border-t md:border-none ">
+          <a class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker font-bold" href="/blog/tags"> tags</a>
+        </li>     
+  
+
+  
+  </ul>
+</nav>
+
+
+<ul class="lg:block hidden flex shadow-md py-8 ">
 
   <div class="w-5/6 lg:w-full    mx-auto parent-container container mx-auto  h-full flex justify-between">
    <div class="con-nav-first ">
@@ -114,12 +147,13 @@ html{
         </li>     
   
   
-  <li class="ml-3 text-xl flex justify-center">
-    <button type="button" id="checkbox" data-theme="light" class="dark-mode-button bg-white hover:bg-gray-100 text-gray-800 font-semibold py-3 px-3 text-xl border border-gray-400 rounded ">🌙</button>
-  </li>
+  
   <li class="ml-3 text-xl flex justify-center">
     
-
+    <li class="ml-3 text-xl flex justify-center">
+      <button type="button" id="checkbox" data-theme="light" class="dark-mode-button bg-white hover:bg-gray-100 text-gray-800 font-semibold py-3 px-3 text-xl border border-gray-400 rounded ">🌙</button>
+    </li>
+      
 <div class="relative inline-flex theme-color">
 <select  class=" lg:block  bg-white hover:bg-gray-100 text-gray-800 font-semibold py-3  sm:px-1 text-xl border border-gray-400 rounded " id="theme-select">
 <option value="default">⬛</option>
@@ -147,7 +181,98 @@ html{
     <main role="main">
      
       
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="   "/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"/>
     
+    <meta itemprop="name" content="Tutorial Arduino Part-01: Persiapan Awal Memulai Belajar Arduino!">
+<meta itemprop="description" content="Apa sih sebenernya arduino itu?  Jika kita ingin memulai belajar arduino rasanya aneh jika kita tidak mengenalnya terlebih dahulu, ada pepatah seperti ini tak kenal maka tak sayang apalagi cinta haha, ya memang benar kenal juga engga apalagi tumbuh rasa cinta, kita harus mengenalnya terlebih dahulu barulah muncul rasa cinta bukan begitu? haha udah becandanya kita langsung mulai aja ke pembehasannya lets gooo.
+Arduino menurut wikipedia adalah sebuah mikrokontroller / pengendali mikro papan tunggal(single board) yang bersifat sumber terbuka dan menjadi salah satu proyek Open Source Hardware yang paling populer."><meta itemprop="datePublished" content="2021-10-08T09:20:46+07:00" />
+<meta itemprop="dateModified" content="2021-10-08T09:20:46+07:00" />
+<meta itemprop="wordCount" content="608">
+<meta itemprop="keywords" content="arduino," />
+    
+    <meta property="og:title" content="Tutorial Arduino Part-01: Persiapan Awal Memulai Belajar Arduino!" />
+<meta property="og:description" content="Apa sih sebenernya arduino itu?  Jika kita ingin memulai belajar arduino rasanya aneh jika kita tidak mengenalnya terlebih dahulu, ada pepatah seperti ini tak kenal maka tak sayang apalagi cinta haha, ya memang benar kenal juga engga apalagi tumbuh rasa cinta, kita harus mengenalnya terlebih dahulu barulah muncul rasa cinta bukan begitu? haha udah becandanya kita langsung mulai aja ke pembehasannya lets gooo.
+Arduino menurut wikipedia adalah sebuah mikrokontroller / pengendali mikro papan tunggal(single board) yang bersifat sumber terbuka dan menjadi salah satu proyek Open Source Hardware yang paling populer." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ibnuhamzah404.github.io/blog/posts/01-tutorial-arduino/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-10-08T09:20:46+07:00" />
+<meta property="article:modified_time" content="2021-10-08T09:20:46+07:00" />
+
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Tutorial Arduino Part-01: Persiapan Awal Memulai Belajar Arduino!"/>
+<meta name="twitter:description" content="Apa sih sebenernya arduino itu?  Jika kita ingin memulai belajar arduino rasanya aneh jika kita tidak mengenalnya terlebih dahulu, ada pepatah seperti ini tak kenal maka tak sayang apalagi cinta haha, ya memang benar kenal juga engga apalagi tumbuh rasa cinta, kita harus mengenalnya terlebih dahulu barulah muncul rasa cinta bukan begitu? haha udah becandanya kita langsung mulai aja ke pembehasannya lets gooo.
+Arduino menurut wikipedia adalah sebuah mikrokontroller / pengendali mikro papan tunggal(single board) yang bersifat sumber terbuka dan menjadi salah satu proyek Open Source Hardware yang paling populer."/>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-213458302-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.15/dist/tailwind.min.css">
+   
+    
+    
+    <link  href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+Pro&family=VT323&display=swap" rel="stylesheet">
+    
+    <link  rel="stylesheet" href="https://ibnuhamzah404.github.io/blog/css/home.css">
+    <link   rel="stylesheet" href="https://ibnuhamzah404.github.io/blog/css/responsive.css">
+    <link   rel="stylesheet" href="https://ibnuhamzah404.github.io/blog/css/navbar.css">
+    
+    
+    <link rel="canonical" href="https://ibnuhamzah404.github.io/blog/#ZgotmplZ">
+    
+
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 100 100&quot;><text y=&quot;.9em&quot; font-size=&quot;90&quot;>☕</text></svg>">
+    <link   rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $('body').css('display', 'unset');
+        })
+    </script>
+ 
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-213458302-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+    <title>Tutorial Arduino Part-01: Persiapan Awal Memulai Belajar Arduino!</title>
+</head>
+<style>
+  
+.text-white-500{
+  color : white !important;
+}
+
+html{
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+</style>
   <style>
    
    div#disqus_thread > iframe{
@@ -219,7 +344,7 @@ html{
     }
     
     h1{
-      font-size: 4vw;
+    font-size: 3.25rem;
       line-height: normal;
       font-weight: bold;
       font-family:-apple-system, system-ui, BlinkMacSystemFont;
@@ -384,13 +509,11 @@ hr.section-break::after {
     
 }
 
+
+
+
   </style>
 
- 
-<ul>
-   <li>
-    <a href="https://ibnuhamzah404.github.io/blog/tags/arduino/">arduino</a>
-  </li></ul>
 
 <article id="single" style="min-height : 800px;">
  
