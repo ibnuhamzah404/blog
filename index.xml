@@ -1,110 +1,80 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Programer Bucin on My New Hugo Site</title>
-    <link>https://ibnuhamzah404.github.io/blog/</link>
-    <description>Recent content in Programer Bucin on My New Hugo Site</description>
+    <title>Programer Bucin on Blog coding asik</title>
+    <link>https://example.org/</link>
+    <description>Recent content in Programer Bucin on Blog coding asik</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 04 Sep 2021 23:49:09 +0700</lastBuildDate><atom:link href="https://ibnuhamzah404.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Sep 2021 23:49:09 +0700</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>06 Tutorial Arduino Running Led</title>
-      <link>https://ibnuhamzah404.github.io/blog/posts/06-tutorial-arduino-running-led/</link>
-      <pubDate>Fri, 03 Dec 2021 02:16:12 +0700</pubDate>
+      <title>Belajar Arduino Dari Dasar</title>
+      <link>https://example.org/blog/belajar-arduino-dari-dasar/</link>
+      <pubDate>Wed, 08 Sep 2021 18:04:06 +0700</pubDate>
       
-      <guid>https://ibnuhamzah404.github.io/blog/posts/06-tutorial-arduino-running-led/</guid>
+      <guid>https://example.org/blog/belajar-arduino-dari-dasar/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tutorial Arduino Part-05: Membuat Program LED Berkedip Atau Blink LED Arduino.</title>
-      <link>https://ibnuhamzah404.github.io/blog/posts/05-tutorial-arduino-led-blink/</link>
-      <pubDate>Mon, 22 Nov 2021 19:02:40 +0700</pubDate>
+      <title>Blog Post 4</title>
+      <link>https://example.org/blog/blog-post-4/</link>
+      <pubDate>Wed, 08 Sep 2021 14:45:24 +0700</pubDate>
       
-      <guid>https://ibnuhamzah404.github.io/blog/posts/05-tutorial-arduino-led-blink/</guid>
-      <description>Basa Basi 📢  Led blink mirip dengan hello world. mengapa gue katakan mirip dikarnakan ketika kita memulai belajar suatu bahasa pemrograman pastinya kita memulai dengan membuat program sederhana yaitu hello world,sama halnya ketika kita baru memulai belajar pemrograman mikrokontroler biasanya led blink sering dijadikan untuk memulai awal belajar pemrograman mikrokontroler.
-Persyaratan ⚠️ ini merupakan hal hal yang harus temen temen pahami terlebih dahulu untuk memulai pembuatan led blink.
- memahami elektro dasar diantaranya  hambatan arus daya voltase   memahami bagian bagian beserta fungsi didalam papan arduino memahami sofware arduino IDE.</description>
-    </item>
-    
-    <item>
-      <title>Tutorial Arduino Part-04: Mengenal Bagian Bagian Pada Arduino</title>
-      <link>https://ibnuhamzah404.github.io/blog/posts/04-tutorial-arduino-mengenal-bagian-bagian-arduino/</link>
-      <pubDate>Sun, 21 Nov 2021 00:57:15 +0700</pubDate>
-      
-      <guid>https://ibnuhamzah404.github.io/blog/posts/04-tutorial-arduino-mengenal-bagian-bagian-arduino/</guid>
-      <description>Basa Basi 💡  Hai temen temen semua, udah lama ga update artikel lagi.
-di artikel kemarin kita sudah membahas Cara menginstal arduino ide di windows.
-kali ini kita akan belajar tentang kita mengenal bagian bagian pada arduino uno dan fungsinya
-langsung aja kita bahas lets goo.
- 💡 INFO SINGKATAN 💡 USB : Universal Serial Bus VDC : Volt DC IC : Integrated Circuit. LED : Light Emitting Diode</description>
-    </item>
-    
-    <item>
-      <title>Tutorial Arduino Part-03: Cara Install Arduino Ide Pada Windows</title>
-      <link>https://ibnuhamzah404.github.io/blog/posts/03-tutorial-install-arduino-ide-pada-windows-10-copy/</link>
-      <pubDate>Sun, 21 Nov 2021 00:53:10 +0700</pubDate>
-      
-      <guid>https://ibnuhamzah404.github.io/blog/posts/03-tutorial-install-arduino-ide-pada-windows-10-copy/</guid>
-      <description>Basa Basi 📢  di artikel sebelumnya kita sudah membahas tentang jenis jenis papan pada arduino
-kali ini kita akan belajar gimana sih cara install arduino ide di windows.
-karna laptop gue kentank ya masih pake windows 10 haha.
-letsgo kita bahas!
-Langkah Langkah Menginstal Arduino IDE Di Windows 10 💡   Note : Ini khusus windows.
- 1. Download Sofware Arduino IDE Khusus untuk windows 💡  teman teman bisa mengunduh sofware arduino pada linik disini setelah teman teman mengunjungi link diatas maka tampilannya akan seperti dibawah ini, teman teman pilih yang sudah saya berikan kotak merah itu untuk versi windows download disitu.</description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>https://ibnuhamzah404.github.io/blog/projects/test/</link>
-      <pubDate>Sat, 20 Nov 2021 12:29:46 +0700</pubDate>
-      
-      <guid>https://ibnuhamzah404.github.io/blog/projects/test/</guid>
+      <guid>https://example.org/blog/blog-post-4/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tutorial Arduino Part-02: Mengenal jenis papan arduino</title>
-      <link>https://ibnuhamzah404.github.io/blog/posts/02-tutuorial-arduino/</link>
-      <pubDate>Thu, 18 Nov 2021 04:46:25 +0700</pubDate>
-      
-      <guid>https://ibnuhamzah404.github.io/blog/posts/02-tutuorial-arduino/</guid>
-      <description>Basa Basi 📢  Diartikel sebelumnya kita sudah membahas langkah awal untuk memulai belajar arduino.
-arduino itu kan banyak ya jenis jenis nya.
-ada uno, nano, lenardo, dan masih banyak lainnya.
-nah di artikel ini kita akan membahas tuntas jenis jenis papan arduino.
-Ltesgo kita bahas!
-Hal apa saja yang akan dibahas 📕 Pada artikel ini kita akan membahas..
-#Jenis jenis papan pada arduino.
-#Papan arduino mana yang cocok untuk pemula</description>
-    </item>
-    
-    <item>
-      <title>Membuat Deret Fibonaci Dengan C&#43;&#43;</title>
-      <link>https://ibnuhamzah404.github.io/blog/projects/membuat-deret-fibonaci-dengan-cpp/</link>
-      <pubDate>Tue, 16 Nov 2021 21:19:42 +0700</pubDate>
-      
-      <guid>https://ibnuhamzah404.github.io/blog/projects/membuat-deret-fibonaci-dengan-cpp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tutorial Arduino Part-01: Persiapan Awal Memulai Belajar Arduino!</title>
-      <link>https://ibnuhamzah404.github.io/blog/posts/01-tutorial-arduino/</link>
-      <pubDate>Fri, 08 Oct 2021 09:20:46 +0700</pubDate>
-      
-      <guid>https://ibnuhamzah404.github.io/blog/posts/01-tutorial-arduino/</guid>
-      <description>Apa sih sebenernya arduino itu?  Jika kita ingin memulai belajar arduino rasanya aneh jika kita tidak mengenalnya terlebih dahulu, ada pepatah seperti ini tak kenal maka tak sayang apalagi cinta haha, ya memang benar kenal juga engga apalagi tumbuh rasa cinta, kita harus mengenalnya terlebih dahulu barulah muncul rasa cinta bukan begitu? haha udah becandanya kita langsung mulai aja ke pembehasannya lets gooo.
-Arduino menurut wikipedia adalah sebuah mikrokontroller / pengendali mikro papan tunggal(single board) yang bersifat sumber terbuka dan menjadi salah satu proyek Open Source Hardware yang paling populer.</description>
-    </item>
-    
-    <item>
-      <title>Kenalan yuk? </title>
-      <link>https://ibnuhamzah404.github.io/blog/posts/blog-post-2/</link>
+      <title>Porto</title>
+      <link>https://example.org/porto/porto/</link>
       <pubDate>Sun, 05 Sep 2021 19:54:45 +0700</pubDate>
       
-      <guid>https://ibnuhamzah404.github.io/blog/posts/blog-post-2/</guid>
-      <description>Hello world! 🖐  </description>
+      <guid>https://example.org/porto/porto/</guid>
+      <description>ini adalah blog pertama ku ini adalah blog pertama ku ini adalah blog pertama ku ini adalah blog pertama ku</description>
+    </item>
+    
+    <item>
+      <title>Post 1</title>
+      <link>https://example.org/blog/blog-post-1/</link>
+      <pubDate>Sun, 05 Sep 2021 19:54:45 +0700</pubDate>
+      
+      <guid>https://example.org/blog/blog-post-1/</guid>
+      <description>What is Lorem Ipsum?
+Paragraph
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
+    </item>
+    
+    <item>
+      <title>Post 2</title>
+      <link>https://example.org/blog/blog-post-2/</link>
+      <pubDate>Sun, 05 Sep 2021 19:54:45 +0700</pubDate>
+      
+      <guid>https://example.org/blog/blog-post-2/</guid>
+      <description>Why do we use it?
+paragraf It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;lsquo;Content here, content here&amp;rsquo;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &amp;lsquo;lorem ipsum&amp;rsquo; will uncover many web sites still in their infancy.</description>
+    </item>
+    
+    <item>
+      <title>Post 3</title>
+      <link>https://example.org/blog/blog-post-3/</link>
+      <pubDate>Sun, 05 Sep 2021 19:54:45 +0700</pubDate>
+      
+      <guid>https://example.org/blog/blog-post-3/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;title: &amp;ldquo;Elements showcase&amp;rdquo;
+date: 2015-05-28
+categories:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;tranquilpeak&lt;/li&gt;
+&lt;li&gt;features
+tags:&lt;/li&gt;
+&lt;li&gt;html elements&lt;/li&gt;
+&lt;li&gt;markdown
+thumbnailImagePosition: left
+thumbnailImage: //d1u9biwaxjngwg.cloudfront.net/elements-showcase/vintage-140.jpg&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Check out how Tranquilpeak theme display well HTML elements (title, paragraph, blockquote, table and more..). It&amp;rsquo;s simple and elegant.&lt;/p&gt;</description>
     </item>
     
   </channel>

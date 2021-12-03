@@ -1,36 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
-    <link>https://ibnuhamzah404.github.io/blog/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <title>Tags on Blog coding asik</title>
+    <link>https://example.org/tags/</link>
+    <description>Recent content in Tags on Blog coding asik</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 22 Nov 2021 19:02:40 +0700</lastBuildDate><atom:link href="https://ibnuhamzah404.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Sep 2021 19:54:45 +0700</lastBuildDate><atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>arduino</title>
-      <link>https://ibnuhamzah404.github.io/blog/tags/arduino/</link>
-      <pubDate>Mon, 22 Nov 2021 19:02:40 +0700</pubDate>
-      
-      <guid>https://ibnuhamzah404.github.io/blog/tags/arduino/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NEW!!</title>
-      <link>https://ibnuhamzah404.github.io/blog/tags/new/</link>
-      <pubDate>Sun, 21 Nov 2021 00:57:15 +0700</pubDate>
-      
-      <guid>https://ibnuhamzah404.github.io/blog/tags/new/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>intro</title>
-      <link>https://ibnuhamzah404.github.io/blog/tags/intro/</link>
+      <title>cat</title>
+      <link>https://example.org/tags/cat/</link>
       <pubDate>Sun, 05 Sep 2021 19:54:45 +0700</pubDate>
       
-      <guid>https://ibnuhamzah404.github.io/blog/tags/intro/</guid>
+      <guid>https://example.org/tags/cat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dog</title>
+      <link>https://example.org/tags/dog/</link>
+      <pubDate>Sun, 05 Sep 2021 19:54:45 +0700</pubDate>
+      
+      <guid>https://example.org/tags/dog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>turtle</title>
+      <link>https://example.org/tags/turtle/</link>
+      <pubDate>Sun, 05 Sep 2021 19:54:45 +0700</pubDate>
+      
+      <guid>https://example.org/tags/turtle/</guid>
       <description></description>
     </item>
     

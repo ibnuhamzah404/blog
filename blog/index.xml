@@ -1,29 +1,71 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on My New Hugo Site</title>
-    <link>https://ibnuhamzah404.github.io/blog/blog/</link>
-    <description>Recent content in Blog on My New Hugo Site</description>
+    <title>Blog on Blog coding asik</title>
+    <link>https://example.org/blog/</link>
+    <description>Recent content in Blog on Blog coding asik</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 04 Sep 2021 23:49:09 +0700</lastBuildDate><atom:link href="https://ibnuhamzah404.github.io/blog/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Sep 2021 23:49:09 +0700</lastBuildDate><atom:link href="https://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Tutorial Arduino Part-01: Persiapan Awal Memulai Belajar Arduino!</title>
-      <link>https://ibnuhamzah404.github.io/blog/blog/01-tutorial-arduino/</link>
-      <pubDate>Fri, 08 Oct 2021 09:20:46 +0700</pubDate>
+      <title>Belajar Arduino Dari Dasar</title>
+      <link>https://example.org/blog/belajar-arduino-dari-dasar/</link>
+      <pubDate>Wed, 08 Sep 2021 18:04:06 +0700</pubDate>
       
-      <guid>https://ibnuhamzah404.github.io/blog/blog/01-tutorial-arduino/</guid>
+      <guid>https://example.org/blog/belajar-arduino-dari-dasar/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Hallo </title>
-      <link>https://ibnuhamzah404.github.io/blog/blog/blog-post-2/</link>
+      <title>Blog Post 4</title>
+      <link>https://example.org/blog/blog-post-4/</link>
+      <pubDate>Wed, 08 Sep 2021 14:45:24 +0700</pubDate>
+      
+      <guid>https://example.org/blog/blog-post-4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Post 1</title>
+      <link>https://example.org/blog/blog-post-1/</link>
       <pubDate>Sun, 05 Sep 2021 19:54:45 +0700</pubDate>
       
-      <guid>https://ibnuhamzah404.github.io/blog/blog/blog-post-2/</guid>
-      <description>⚡ Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;lsquo;Content here, content here&amp;rsquo;, making it look like readable English. Many desktop publishing
- It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</description>
+      <guid>https://example.org/blog/blog-post-1/</guid>
+      <description>What is Lorem Ipsum?
+Paragraph
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
+    </item>
+    
+    <item>
+      <title>Post 2</title>
+      <link>https://example.org/blog/blog-post-2/</link>
+      <pubDate>Sun, 05 Sep 2021 19:54:45 +0700</pubDate>
+      
+      <guid>https://example.org/blog/blog-post-2/</guid>
+      <description>Why do we use it?
+paragraf It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;lsquo;Content here, content here&amp;rsquo;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &amp;lsquo;lorem ipsum&amp;rsquo; will uncover many web sites still in their infancy.</description>
+    </item>
+    
+    <item>
+      <title>Post 3</title>
+      <link>https://example.org/blog/blog-post-3/</link>
+      <pubDate>Sun, 05 Sep 2021 19:54:45 +0700</pubDate>
+      
+      <guid>https://example.org/blog/blog-post-3/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;title: &amp;ldquo;Elements showcase&amp;rdquo;
+date: 2015-05-28
+categories:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;tranquilpeak&lt;/li&gt;
+&lt;li&gt;features
+tags:&lt;/li&gt;
+&lt;li&gt;html elements&lt;/li&gt;
+&lt;li&gt;markdown
+thumbnailImagePosition: left
+thumbnailImage: //d1u9biwaxjngwg.cloudfront.net/elements-showcase/vintage-140.jpg&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Check out how Tranquilpeak theme display well HTML elements (title, paragraph, blockquote, table and more..). It&amp;rsquo;s simple and elegant.&lt;/p&gt;</description>
     </item>
     
   </channel>
