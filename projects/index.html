@@ -85,51 +85,30 @@ html{
 }
 </style>
     
-  
+  <style>
+      ul{
+          list-style: unset !important;
+          padding-left: 1.25rem;
+    list-style-type: square;
+      }
+
+      li{
+          margin-left: 40px;;
+      }
+  </style>
   <body >
    
     
     
-<nav class="lg:hidden block nav flex flex-wrap items-center justify-between px-4" style="padding : 20px 10px;">
-  <div class=" flex flex-no-shrink items-center mr-6 py-3 text-grey-darkest">
-    
-    <span class="font-semibold text-xl tracking-tight">👨‍💻 Ibnu Hamzah</span>
-  </div>
-
-  <input class="menu-btn hidden" type="checkbox" id="menu-btn">
-
-    
-  <label class="menu-icon block cursor-pointer md:hidden px-2 py-4 relative select-none" for="menu-btn">
-    <span class="navicon bg-grey-darkest flex items-center relative"></span>
-  </label>
-
-  <ul class="menu border-b md:border-none flex justify-end list-reset m-0 w-full md:w-auto">
-    <li class="border-t md:border-none">
-      <a href="/" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker font-bold">Home</a>
-    </li>
-    
-    
-        <li class=" border-t md:border-none ">
-          <a class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker font-bold" href="/blog/posts"> posts</a>
-        </li>     
-  
-        <li class=" border-t md:border-none ">
-          <a class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker font-bold" href="/blog/tags"> tags</a>
-        </li>     
-  
-
-  
-  </ul>
-</nav>
 
 
-<ul class="lg:block hidden flex shadow-md py-8 ">
+<ul class="flex shadow-md py-8  pl-0">
 
-  <div class="w-5/6 lg:w-full    mx-auto parent-container container mx-auto  h-full flex justify-between">
+  <div class="w-5/6 lg:w-full  lg:flex-row flex-col lg:items-start items-center  mx-auto parent-container container mx-auto  h-full flex justify-between">
    <div class="con-nav-first ">
-      <a href="https://ibnuhamzah404.github.io/blog/" class="vt323 text-4xl text-black weight-bold vertical flex items-center h-full"> 👨‍💻 Ibnu Hamzah </a>
+      <a href="https://ibnuhamzah404.github.io/blog/" class="vt323 text-4xl text-black weight-bold vertical flex items-center h-full">  👨‍💻 Ibnu Hamzah  </a>
     </div>
-  <div class="con-nav-seccond  flex mr-5  w-max h-full ">
+  <div class="con-nav-seccond  flex mr-5  w-max h-full lg:mt-0 mt-8">
 
   
         <li class="nav-item ml-3 ">
@@ -142,12 +121,13 @@ html{
   
   
   
-  <li class="ml-3 text-xl flex justify-center">
+
     
     <li class="ml-3 text-xl flex justify-center">
       <button type="button" id="checkbox" data-theme="light" class="dark-mode-button bg-white hover:bg-gray-100 text-gray-800 font-semibold py-3 px-3 text-xl border border-gray-400 rounded ">🌙</button>
     </li>
-      
+
+    <li class="ml-3 text-xl flex justify-center">
 <div class="relative inline-flex theme-color">
 <select  class=" lg:block  bg-white hover:bg-gray-100 text-gray-800 font-semibold py-3  sm:px-1 text-xl border border-gray-400 rounded " id="theme-select">
 <option value="default">⬛</option>
@@ -161,6 +141,7 @@ html{
 
 </select>
 </div>
+</li>
   </li>
   
         
@@ -172,7 +153,7 @@ html{
 
    
 <article id="single" style="min-height : 800px;">
-    <div class="container w-5/6 lg:w-full mx-auto mx-auto mt-10 flex justify-between" >
+    <div class="lg:container w-5/6 w-full mx-auto mx-auto mt-10 lg:pl-0 pl-5" >
     
 
   
