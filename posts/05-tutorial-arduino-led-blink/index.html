@@ -251,6 +251,14 @@ html{
 }
 </style>
   <style>
+
+    div.highlight{
+      margin : 0px -20px;
+    }
+
+    div.highlight  pre{
+      overflow-x: auto;
+    }
    
    div#disqus_thread > iframe{
     min-height: 1400px !important;
@@ -291,7 +299,7 @@ html{
    
     width: 100%;
     color: #6f6f6f;
-    border-left: 4px solid silver;
+    border-left: 8px solid silver;
     background-color: #fafafa;
 
     }
@@ -486,7 +494,11 @@ hr.section-break::after {
     
 }
 
-
+@media screen and (max-device-width : 480px){
+  div.highlight{
+      margin : 0px -50px;
+    }
+}
 
 
   </style>
