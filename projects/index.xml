@@ -6,9 +6,36 @@
     <description>Recent content in Projects on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Nov 2021 12:29:46 +0700</lastBuildDate><atom:link href="https://ibnuhamzah404.github.io/blog/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Dec 2021 23:15:19 +0700</lastBuildDate><atom:link href="https://ibnuhamzah404.github.io/blog/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
+      <title>Landing Page Cerdas Digital</title>
+      <link>https://ibnuhamzah404.github.io/blog/projects/cerdas-digital/</link>
+      <pubDate>Mon, 06 Dec 2021 23:15:19 +0700</pubDate>
+      
+      <guid>https://ibnuhamzah404.github.io/blog/projects/cerdas-digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Landing Page Karbitan E-Sport</title>
+      <link>https://ibnuhamzah404.github.io/blog/projects/landing-page-urofit/</link>
+      <pubDate>Mon, 06 Dec 2021 22:54:55 +0700</pubDate>
+      
+      <guid>https://ibnuhamzah404.github.io/blog/projects/landing-page-urofit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Karbitan E-Sport</title>
+      <link>https://ibnuhamzah404.github.io/blog/projects/landing-page-crt/</link>
+      <pubDate>Mon, 06 Dec 2021 22:54:16 +0700</pubDate>
+      
+      <guid>https://ibnuhamzah404.github.io/blog/projects/landing-page-crt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Landing Page Emprit Cinematic</title>
       <link>https://ibnuhamzah404.github.io/blog/projects/test/</link>
       <pubDate>Sat, 20 Nov 2021 12:29:46 +0700</pubDate>
       
@@ -17,7 +44,7 @@
     </item>
     
     <item>
-      <title>Membuat Deret Fibonaci Dengan C&#43;&#43;</title>
+      <title>Landing Page Preweeding</title>
       <link>https://ibnuhamzah404.github.io/blog/projects/membuat-deret-fibonaci-dengan-cpp/</link>
       <pubDate>Tue, 16 Nov 2021 21:19:42 +0700</pubDate>
       
