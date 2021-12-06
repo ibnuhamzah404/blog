@@ -17,7 +17,7 @@
 di artikel kemarin kita sudah membahas Cara menginstal arduino ide di windows.
 kali ini kita akan belajar tentang kita mengenal bagian bagian pada arduino uno dan fungsinya
 langsung aja kita bahas lets goo.
- 💡 INFO SINGKATAN 💡 USB : Universal Serial Bus VDC : Volt DC IC : Integrated Circuit. LED : Light Emitting Diode</description>
+ 💡 INFO SINGKATAN 💡 USB : Universal Serial Bus VDC : Volt DC IC : Integrated Circuit. LED : Light Emitting Diode AREF : Analog Reference I/O : Input/Output PWM : Pulse Width Modulation TX: Trasnmit/Pengirim RX : Recive/Penerima</description>
     </item>
     
   </channel>
