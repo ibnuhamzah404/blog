@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>webdevelopment on My New Hugo Site</title>
+    <link>https://ibnuhamzah404.github.io/blog/tags/webdevelopment/</link>
+    <description>Recent content in webdevelopment on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Dec 2021 10:47:26 +0700</lastBuildDate><atom:link href="https://ibnuhamzah404.github.io/blog/tags/webdevelopment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tutorial HTML Part-01: Tak kenal maka tak sayang💔</title>
+      <link>https://ibnuhamzah404.github.io/blog/posts/belajar-html-hingga-mahir/</link>
+      <pubDate>Wed, 22 Dec 2021 10:47:26 +0700</pubDate>
+      
+      <guid>https://ibnuhamzah404.github.io/blog/posts/belajar-html-hingga-mahir/</guid>
+      <description>mengapa sih kita harus mempelajari html?
+oke gue jawab pake meme ya nih😂</description>
+    </item>
+    
+  </channel>
+</rss>
