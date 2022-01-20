@@ -8,14 +8,24 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Sep 2021 23:49:09 +0700</lastBuildDate><atom:link href="https://ibnuhamzah404.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Tutorial Svelate JS : Pengenalan dan instalasi</title>
-      <link>https://ibnuhamzah404.github.io/blog/posts/instalasi-svelate-js-diwindows/</link>
+      <title>Transisi menuju hobi baru 🍃</title>
+      <link>https://ibnuhamzah404.github.io/blog/posts/transisi-menuju-hobi-baru/</link>
+      <pubDate>Thu, 20 Jan 2022 19:59:22 +0700</pubDate>
+      
+      <guid>https://ibnuhamzah404.github.io/blog/posts/transisi-menuju-hobi-baru/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial Svelte JS : Pengenalan dan instalasi</title>
+      <link>https://ibnuhamzah404.github.io/blog/posts/instalasi-svelte-js-diwindows/</link>
       <pubDate>Thu, 20 Jan 2022 16:02:48 +0700</pubDate>
       
-      <guid>https://ibnuhamzah404.github.io/blog/posts/instalasi-svelate-js-diwindows/</guid>
+      <guid>https://ibnuhamzah404.github.io/blog/posts/instalasi-svelte-js-diwindows/</guid>
       <description>hallo temen temen, apa kabar?semoga baik ya😊
-belakangan ini gue lagi belajar framework javascript yang lagi ngeboom yaitu svelate js, gue tertarik dengan svelate js katanya framework ini cepat dan ringan.
-ada satu hal yang bikin gue tertarik dengan svelate ini dikarnakan svelate js bukan hanya sekedar framework frontend semata seperti react, angular tetapi svelate lebih dari itu, semua kode Svelte akan di compile ke JavaScript murni. jadi svelate itu bisa juga dibilang sebagai bahasa compaile bukan lagi framework.</description>
+oke kita mulai dengan meme ya, gimana bener ga😆
+belakangan ini gue lagi belajar framework javascript yang lagi ngeboom yaitu svelte js, gue tertarik dengan svelte js katanya framework ini cepat dan ringan.
+ada satu hal yang bikin gue tertarik dengan svelte ini dikarnakan svelte js bukan hanya sekedar framework frontend semata seperti react, angular tetapi svelte lebih dari itu, semua kode Svelte akan di compile ke JavaScript murni.</description>
     </item>
     
     <item>

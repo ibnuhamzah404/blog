@@ -6,13 +6,22 @@
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Jan 2022 16:02:48 +0700</lastBuildDate><atom:link href="https://ibnuhamzah404.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Jan 2022 19:59:22 +0700</lastBuildDate><atom:link href="https://ibnuhamzah404.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>svelate</title>
-      <link>https://ibnuhamzah404.github.io/blog/tags/svelate/</link>
+      <title>new</title>
+      <link>https://ibnuhamzah404.github.io/blog/tags/new/</link>
+      <pubDate>Thu, 20 Jan 2022 19:59:22 +0700</pubDate>
+      
+      <guid>https://ibnuhamzah404.github.io/blog/tags/new/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>svelte</title>
+      <link>https://ibnuhamzah404.github.io/blog/tags/svelte/</link>
       <pubDate>Thu, 20 Jan 2022 16:02:48 +0700</pubDate>
       
-      <guid>https://ibnuhamzah404.github.io/blog/tags/svelate/</guid>
+      <guid>https://ibnuhamzah404.github.io/blog/tags/svelte/</guid>
       <description></description>
     </item>
     
@@ -22,15 +31,6 @@
       <pubDate>Wed, 22 Dec 2021 10:47:26 +0700</pubDate>
       
       <guid>https://ibnuhamzah404.github.io/blog/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NEW!!</title>
-      <link>https://ibnuhamzah404.github.io/blog/tags/new/</link>
-      <pubDate>Wed, 22 Dec 2021 10:47:26 +0700</pubDate>
-      
-      <guid>https://ibnuhamzah404.github.io/blog/tags/new/</guid>
       <description></description>
     </item>
     
