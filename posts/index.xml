@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Sep 2021 23:49:09 +0700</lastBuildDate><atom:link href="https://ibnuhamzah404.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Tutorial Svelate JS : Pengenalan dan instalasi</title>
+      <link>https://ibnuhamzah404.github.io/blog/posts/instalasi-svelate-js-diwindows/</link>
+      <pubDate>Thu, 20 Jan 2022 16:02:48 +0700</pubDate>
+      
+      <guid>https://ibnuhamzah404.github.io/blog/posts/instalasi-svelate-js-diwindows/</guid>
+      <description>hallo temen temen, apa kabar?semoga baik ya😊
+belakangan ini gue lagi belajar framework javascript yang lagi ngeboom yaitu svelate js, gue tertarik dengan svelate js katanya framework ini cepat dan ringan.
+ada satu hal yang bikin gue tertarik dengan svelate ini dikarnakan svelate js bukan hanya sekedar framework frontend semata seperti react, angular tetapi svelate lebih dari itu, semua kode Svelte akan di compile ke JavaScript murni. jadi svelate itu bisa juga dibilang sebagai bahasa compaile bukan lagi framework.</description>
+    </item>
+    
+    <item>
       <title>Tutorial HTML Pemula Part-01: Tak kenal maka tak sayang</title>
       <link>https://ibnuhamzah404.github.io/blog/posts/belajar-html-hingga-mahir/</link>
       <pubDate>Wed, 22 Dec 2021 10:47:26 +0700</pubDate>
