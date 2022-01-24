@@ -6,14 +6,17 @@
     <description>Recent content in new on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Jan 2022 19:59:22 +0700</lastBuildDate><atom:link href="https://ibnuhamzah404.github.io/blog/tags/new/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jan 2022 15:35:03 +0700</lastBuildDate><atom:link href="https://ibnuhamzah404.github.io/blog/tags/new/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Transisi menuju hobi baru 🍃</title>
-      <link>https://ibnuhamzah404.github.io/blog/posts/transisi-menuju-hobi-baru/</link>
-      <pubDate>Thu, 20 Jan 2022 19:59:22 +0700</pubDate>
+      <title>Menghubungkan Bulma Kedalam Proyek Svelte</title>
+      <link>https://ibnuhamzah404.github.io/blog/posts/cara-menghubungkan-framework-css-bulma-ke-dalam-svelte-js/</link>
+      <pubDate>Mon, 24 Jan 2022 15:35:03 +0700</pubDate>
       
-      <guid>https://ibnuhamzah404.github.io/blog/posts/transisi-menuju-hobi-baru/</guid>
-      <description></description>
+      <guid>https://ibnuhamzah404.github.io/blog/posts/cara-menghubungkan-framework-css-bulma-ke-dalam-svelte-js/</guid>
+      <description>Hallo semua, kabarnya pie sehat kan!
+ada yang tau bulma? asing ga ditelinga kalian😆 mungkin terdengar cukup asing ya untuk sebuah framework css.
+biasanya yang sering kita denger itu Bootstrap, Matrialize, dan Tailwind, sama hal nya seperti framework yang gue sebutin diatas Bulma juga merupakan sebuah framework css. tapi kurang populer aja😁
+kali ini pada kita akan menggunakan Bulma dalam proyek svelte, dan tutorial ini akan membahas cara mengintegrasikan svelte dengan Bulma.</description>
     </item>
     
     <item>

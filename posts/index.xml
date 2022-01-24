@@ -8,12 +8,27 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Sep 2021 23:49:09 +0700</lastBuildDate><atom:link href="https://ibnuhamzah404.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Transisi menuju hobi baru 🍃</title>
+      <title>Menghubungkan Bulma Kedalam Proyek Svelte</title>
+      <link>https://ibnuhamzah404.github.io/blog/posts/cara-menghubungkan-framework-css-bulma-ke-dalam-svelte-js/</link>
+      <pubDate>Mon, 24 Jan 2022 15:35:03 +0700</pubDate>
+      
+      <guid>https://ibnuhamzah404.github.io/blog/posts/cara-menghubungkan-framework-css-bulma-ke-dalam-svelte-js/</guid>
+      <description>Hallo semua, kabarnya pie sehat kan!
+ada yang tau bulma? asing ga ditelinga kalian😆 mungkin terdengar cukup asing ya untuk sebuah framework css.
+biasanya yang sering kita denger itu Bootstrap, Matrialize, dan Tailwind, sama hal nya seperti framework yang gue sebutin diatas Bulma juga merupakan sebuah framework css. tapi kurang populer aja😁
+kali ini pada kita akan menggunakan Bulma dalam proyek svelte, dan tutorial ini akan membahas cara mengintegrasikan svelte dengan Bulma.</description>
+    </item>
+    
+    <item>
+      <title>Hobi seiring waktu 🍃</title>
       <link>https://ibnuhamzah404.github.io/blog/posts/transisi-menuju-hobi-baru/</link>
       <pubDate>Thu, 20 Jan 2022 19:59:22 +0700</pubDate>
       
       <guid>https://ibnuhamzah404.github.io/blog/posts/transisi-menuju-hobi-baru/</guid>
-      <description></description>
+      <description>saya setuju ketika hobi ditekuni akan mendapatkan hasil juga lama kelamaan, tapi terkadang membutuhkan modal yang besar juga untuk menekuni hobi tersebut.
+hobi saya ya ngoprek sana sini, cicip bahasa baru, framework baru. menyenangkan memang.
+tetapi jika sudah menyangkut kepekerjaan, dan dilakukan berulang ulang kok lama kelamaan bosen juga ya haha, dan sampai gua ada dititik ngerasa jenuh dengan perkembangan teknologi yang bener bener cepet bgt.
+setiap belajar framework ini, eh framework baru udah keluar.</description>
     </item>
     
     <item>
