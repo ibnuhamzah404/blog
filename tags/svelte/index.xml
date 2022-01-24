@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 24 Jan 2022 15:35:03 +0700</lastBuildDate><atom:link href="https://ibnuhamzah404.github.io/blog/tags/svelte/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Menghubungkan Bulma Kedalam Proyek Svelte</title>
+      <title>Tutorial Svelte JS #02 : Menghubungkan Bulma Kedalam Proyek</title>
       <link>https://ibnuhamzah404.github.io/blog/posts/cara-menghubungkan-framework-css-bulma-ke-dalam-svelte-js/</link>
       <pubDate>Mon, 24 Jan 2022 15:35:03 +0700</pubDate>
       
@@ -20,7 +20,7 @@ kali ini pada kita akan menggunakan Bulma dalam proyek svelte, dan tutorial ini 
     </item>
     
     <item>
-      <title>Tutorial Svelte JS : Pengenalan dan instalasi</title>
+      <title>Tutorial Svelte JS #01 : Pengenalan dan instalasi</title>
       <link>https://ibnuhamzah404.github.io/blog/posts/instalasi-svelte-js-diwindows/</link>
       <pubDate>Thu, 20 Jan 2022 16:02:48 +0700</pubDate>
       
