@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>package-manager on My New Hugo Site</title>
+    <link>https://ibnuhamzah404.github.io/blog/tags/package-manager/</link>
+    <description>Recent content in package-manager on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Feb 2022 04:45:05 +0700</lastBuildDate><atom:link href="https://ibnuhamzah404.github.io/blog/tags/package-manager/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Belajar Composer Instalasi Dan Pengenalan</title>
+      <link>https://ibnuhamzah404.github.io/blog/posts/tutor-composer-instalasi-dan-pengenalan/</link>
+      <pubDate>Sat, 05 Feb 2022 04:45:05 +0700</pubDate>
+      
+      <guid>https://ibnuhamzah404.github.io/blog/posts/tutor-composer-instalasi-dan-pengenalan/</guid>
+      <description>jika kalian sudah mempelajari php pastinya tidak asing dengan composer, atau jangan jangan baru dengar?
+yang sudah suhu mohon minggir dulu, yang baru tau merapat yuk wkwk, sama sama kita belajar.
+oke pasti kalian jika ingin menginstal suatu library sering menemui command seperti ini
+composer require phpmailer/phpmailer nah ini merpakan command untuk menginstal libary phpmailer, just info buat yang belum tau phpmailer merupakan libary php untuk mengirimkan email.
+pada kesempatan kali ini kita akan membahas dan belajar menggunakan composer agar proyek php kita menjadi efesien dan kita dapat bekerja lebih baik dan cepat pastinya.</description>
+    </item>
+    
+  </channel>
+</rss>
