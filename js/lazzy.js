@@ -2,7 +2,7 @@
 // random color tag
 $(document).ready(function () {
 	var num;
-	var arbt = ["#EFB701", "#38c45b", "#5757ec", "#ec5757", "#9057ec", "#6bfab7", "#ff00dd", "#FF9800", "#2C3E50"];
+	var arbt = ["#dc0530", "#90c53f", "#EFB701", "#38c45b", "#5757ec", "#ec5757", "#9057ec", "#6bfab7", "#ff00dd", "#FF9800", "#2C3E50", "#000000", "#FF3E00", "#6675E0"];
 	$("span.tags ").each(function (index) { //incase if you want to use index
 		var number = 1 + Math.floor(Math.random() * arbt.length - 1);
 
