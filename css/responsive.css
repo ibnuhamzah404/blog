@@ -76,6 +76,13 @@ footer {
 html {
     zoom :  unset !important;
 }
+.text-content p, .text-content strong{
+    line-height: 1.2 !important;
+}
+.box-picture img{
+    width: 165px !important;
+    height: 165px !important;
+}
 .con-post {
     width:  95% !important;
 }
