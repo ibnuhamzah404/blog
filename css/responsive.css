@@ -44,7 +44,22 @@ h3 {
     line-height: 1.3;
     letter-spacing: -.1rem;
 }
+.box-article .picture{
+    width: 120px !important;
+}
 
+.box-article .content .tags{
+    padding : 5px !important;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.box-article .content div:nth-child(2){
+    margin-top : 0 !important;
+}
+.box-article .picture .rounded-lg{
+    width: 100px !important;
+}
 p{
     font-size: 16px !important;
     line-height: 2 !important;
@@ -71,10 +86,10 @@ html {
     font-size:  15px !important;
 }
 .box-article span.tags a {
-    font-size:  15px !important;
+    font-size:  13px !important;
 }
 .box-article span.tags {
-    padding :  5px !important;
+    padding :  3px !important;
 }
 #particles-js  {
     height:  fit-content !important;
