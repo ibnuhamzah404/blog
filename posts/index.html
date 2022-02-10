@@ -475,6 +475,29 @@ function toogClass(color){
 
 </script>
 
+<script>
+	 var images = document.querySelectorAll('article img');
+	 var modal = document.querySelector('div.modal');
+	 var closeButton = document.querySelector('span.close');
+
+closeButton.addEventListener('click', function(){
+  modal.classList.remove("show");
+  row.classList.add('show');
+ 
+});
+	 
+	 for (var i = 0; i < images.length; i++) {
+		images[i].addEventListener('click', function(){
+			var imageModal = document.querySelector(".slide img");
+      var gambarSrc = this.src;
+      imageModal.src = gambarSrc;
+
+       modal.classList.add("show");
+
+    });
+	 }
+</script>
+
 
 
     <script>
