@@ -4,10 +4,32 @@
     align-items:  center;
     flex-direction:  row !important;
 }
+.hire-me-button, .resume-button{
+    padding : 8px !important;
+    min-width: 0px !important;
+    font-size: 20px;
+    margin: 0 0 10px 0 !important;
+    width: 100%;
+    
+}
 
+
+
+.box-text .w-max{
+    width: 100% !important;
+}
+
+.box-text .box-soc{
+    margin: 0 auto !important;
+}
+
+.box-text .box-soc div{
+    margin : 0;
+}
 h1{
     font-size: 2.4em !important;
     text-align: center;
+    width: 95% !important;
   
 }
 
@@ -124,7 +146,7 @@ body {
 div.highlight {
     margin :  0px -25px !important;
 }
-}
+
 @media screen and (max-device-width : 480px) {
     body {
     -webkit-text-size-adjust :  none;
@@ -175,8 +197,4 @@ div.highlight {
     top:  0;
 }
 }
-@font-face  {
-    font-family:  "San Francisco";
-    font-weight:  400;
-    src:  url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
