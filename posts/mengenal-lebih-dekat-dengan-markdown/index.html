@@ -14,7 +14,7 @@ jika diantar temen temen sudah paham apa salahnya kita belajar kembali, dan yang
 Pengertian Makrdown markdown adalah sebuah bahasa markup yang sangat ringan dibanding html, kenapa dibilang ringan dikarnakan mudahnya dalam pembacaan dan penulisannya (easy to read easy to write)
 markdown berfungsi untuk mengkonversi dari text biasanya menjadi format html dengan menggunakan karakter karakter tertentu sebagai penanda."><meta itemprop="datePublished" content="2022-02-13T05:49:33+07:00" />
 <meta itemprop="dateModified" content="2022-02-13T05:49:33+07:00" />
-<meta itemprop="wordCount" content="723">
+<meta itemprop="wordCount" content="964">
 <meta itemprop="keywords" content="NEW!!,markdown," />
     
     <meta property="og:title" content="Mengenal Lebih Dekat Dengan Markdown" />
@@ -174,7 +174,7 @@ jika diantar temen temen sudah paham apa salahnya kita belajar kembali, dan yang
 Pengertian Makrdown markdown adalah sebuah bahasa markup yang sangat ringan dibanding html, kenapa dibilang ringan dikarnakan mudahnya dalam pembacaan dan penulisannya (easy to read easy to write)
 markdown berfungsi untuk mengkonversi dari text biasanya menjadi format html dengan menggunakan karakter karakter tertentu sebagai penanda."><meta itemprop="datePublished" content="2022-02-13T05:49:33+07:00" />
 <meta itemprop="dateModified" content="2022-02-13T05:49:33+07:00" />
-<meta itemprop="wordCount" content="723">
+<meta itemprop="wordCount" content="964">
 <meta itemprop="keywords" content="NEW!!,markdown," />
     
     <meta property="og:title" content="Mengenal Lebih Dekat Dengan Markdown" />
@@ -262,6 +262,7 @@ html{
 </style>
   <style>
 
+
     
      article p.light-font a,   div.avatar a{
       font-weight: 500;
@@ -311,7 +312,7 @@ html{
       padding-bottom: 15px;;
       font-size: 24px;
     }
-    ol, ul{
+     ul{
       padding-bottom: 30px;;
     }
 
@@ -397,7 +398,7 @@ html{
 
   
 
-    article ol, article ul{
+   article ul{
       list-style: unset !important;
       margin-left: 50px;;
       padding-bottom:  0;
@@ -788,7 +789,76 @@ https://www.youtube.com/</code></pre></div>
 <blockquote>
 <p class="light-font">Semua orang hanya memikirkan dirinya sendiri termasuk aku -squidward</p>
 </blockquote>
-</div>
+<h4 id="blockquote-bersarang-nested-blockquote">Blockquote bersarang (<em>nested blockquote</em>)</h4>
+<p class="light-font">untuk membuat blockquote bersarang caranya seperti ini :
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!-- membuat link --&gt;</span>
+
+&gt; Semua orang hanya memikirkan dirinya sendiri termasuk aku -squidward
+&gt; 
+&gt;&gt; aku akan bersantai meskipun itu akan membunuhku - squidward</code></pre></div></p>
+<p class="light-font"><strong>hasilnya</strong></p>
+<blockquote>
+<p class="light-font">Semua orang hanya memikirkan dirinya sendiri termasuk aku -squidward</p>
+<blockquote>
+<p class="light-font">aku akan bersantai meskipun itu akan membunuhku - squidward</p>
+</blockquote>
+</blockquote>
+<h3 id="membuat-list">Membuat List</h3>
+<p class="light-font">untuk membuat list didalam html kita pastinya mengenal ul dan ol, ul merupakan singkatan dari unordered list sedangkan ol merupakan singkatan dari ordered list.</p>
+<p class="light-font">kita ketahui bersama unordered list adalah  list dengan urutan berupa karakter spesial atau dengan simbol pada HTML, sedangkan ol Ol (Ordered List) merupakan tag beraturan yang berfungsi untuk mengurutkan suatu list dengan urutan berupa abjad, angka ataupun berupa angka romawi.</p>
+<h4 id="list-beraturan-ordered-list">List beraturan (<em>ordered list</em>)</h4>
+<p class="light-font">untuk membuat nya seperti ini
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!-- membuat ordered list --&gt;</span>
+
+1. First item
+2. Second item
+3. Third item
+    1. Indented item
+    2. Indented item
+4. Fourth item</code></pre></div></p>
+<p class="light-font"><strong>Hasilnya</strong></p>
+<ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item
+<ol>
+<li>Indented item</li>
+<li>Indented item</li>
+</ol>
+</li>
+<li>Fourth item</li>
+</ol>
+<h4 id="list-tidak-beraturan-unordered-list">List tidak beraturan (<em>Unordered list</em>)</h4>
+<p class="light-font">untuk membuat nya seperti ini
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!-- membuat ordered list --&gt;</span>
+
+- First item
+- Second item
+- Third item
+    - Indented item
+    - Indented item
+- Fourth item</code></pre></div></p>
+<p class="light-font"><strong>Hasilnya</strong></p>
+<ul>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item
+<ul>
+<li>Indented item</li>
+<li>Indented item</li>
+</ul>
+</li>
+<li>Fourth item</li>
+</ul>
+<h3 id="membuat-source-codecode-block">Membuat Source Code(<em>code block</em>)</h3>
+<p class="light-font">untuk membuat code block cukup dengan menambahkan tanda <span class="blue-text">  ``` </span> seperti contoh dibawah
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!-- membuat code block --&gt;</span>
+```python
+print(&#34;Hello World&#34;)
+```</code></pre></div></p>
+<p class="light-font"><strong>Hasilnya</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">print(<span style="color:#e6db74">&#34;Hello World&#34;</span>)
+</code></pre></div></div>
        
       </div>
 </div>  
