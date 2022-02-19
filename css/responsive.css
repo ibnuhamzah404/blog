@@ -1,4 +1,45 @@
  @media screen and (max-width: 680px)  {
+    ul.nav-bar{
+        background: blueviolet !important;
+    }
+
+    ul.nav-bar button{
+        padding : 0 10px !important;
+    }
+
+    .con-nav-first a{
+        color : #fff !important;
+        font-size: 2rem;
+        width: 220px !important;
+    }
+
+    #theme-select{
+        display: hidden !important;
+    }
+    .box-trakteer .box-one{
+        width: 100% !important;
+        height: unset !important;
+    }
+
+    .box-trakteer{
+        height: 600px !important;
+    }
+    .box-trakteer .box-button{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-trakteer .box-button button{
+        margin-bottom: 20px !important;
+        width: 90% !important;
+        margin: 0 0 20px 0 !important;
+        padding: 0 !important;
+    }
+
+    ol li, ul li{
+        font-size: unset !important;
+    }
     .social-box {
     display:  flex;
     align-items:  center;
