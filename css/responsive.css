@@ -1,6 +1,26 @@
  @media screen and (max-width: 680px)  {
+    span.tags{
+        padding : 8px !important;
+        margin-left: 5px !important;
+    }
+    span a.all-tags{
+        font-size: 16px !important;
+    }
     ul.nav-bar{
         background: blueviolet !important;
+    }
+
+    ul.styled li{
+        padding-left: 3rem !important;
+    text-indent: -35px !important;
+    margin-block-end: 20px !important;
+    }
+    ul.styled li a{
+        font-size:  18px !important;
+    }
+
+    .styled li::before{
+        font-size: 20px !important;
     }
 
     ul.nav-bar button{
@@ -126,7 +146,7 @@ footer {
 }
 .section-profile p {
     font-size:  30px;
-    padding:  10px;
+  
 }
 html {
     zoom :  unset !important;

@@ -181,7 +181,9 @@ html{
      
       
 <style>
-
+    .styled li::before{
+        font-size: 30px ;
+    }
 
     #particles-js{
       background: #090085;
@@ -234,6 +236,86 @@ html{
         <hr class="container text-xl mx-auto b-doted mt-3">
        
        
+        
+       
+        <div class="con-post container mx-auto last-post flex mt-10 p-5" style="padding : 10px;">
+            
+           
+             <div class="box-article flex w-full h-auto">
+                <ul class="skeleton">
+                    <li class="blog-post o-media">
+                        <div class="o-media__figure">
+                          <span class="skeleton-box" style="width:150px;height:150px;"></span>
+                        </div>
+                        <div class="o-media__body">
+                          <div class="o-vertical-spacing">
+                            <h3 class="">
+                              <span class="skeleton-box" style="width:55%;"></span>
+                            </h3>
+                            <p>
+                              <span class="skeleton-box" style="width:80%;"></span>
+                              <span class="skeleton-box" style="width:90%;"></span>
+                              <span class="skeleton-box" style="width:83%;"></span>
+                              <span class="skeleton-box" style="width:80%;"></span>
+                            </p>
+                            <div class="blog-post__meta">
+                              <span class="skeleton-box" style="width:70px;"></span>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                </ul> 
+                
+                <div class="force-hidden picture w-max  h-auto overflow-hidden flex " style="width: fit-content; ">
+                     <div class="img h-4/6 w-max overflow-hidden rounded-lg " style="width: 150px; height: 150px; ">
+                         
+                         <img class="lazy rounded" data-src="https://st3.depositphotos.com/23594922/31822/v/600/depositphotos_318221368-stock-illustration-missing-picture-page-for-website.jpg" alt="" width="250" height="250" >
+                         
+
+                       
+                     </div>
+                 </div>
+                 <div class="force-hidden content w-5/6 ">
+                     <div class="flex flex-col">
+                       
+                         
+                         <div class="box mt-2 ml-5  ">
+                           
+                          
+                        
+                            
+                             
+                              
+                             <span class="tags mr-auto  text-white font-semibold 
+                             py-2 px-3 text-xl border border-gray-400 rounded shadow"><a href="https://ibnuhamzah404.github.io/blog/tags/Tips%20&amp;%20Tricks">#Tips &amp; Tricks</a></span>
+                             
+                             
+                            
+ 
+                            
+                         </div>
+                         
+                         <div class='box ml-5    mt-5 '>
+                             <h3 class="roboto block text-3xl text-gray-700"><a href="https://ibnuhamzah404.github.io/blog/posts/sekedar-tips-apa-saja/">Sekedar Tips &amp; Tricks Apa Saja</a></h3>
+                         </div>
+                         <div class="box ml-5 mt-3 flex">
+                             
+                             
+                            
+                           
+                             <div class="time text-2xl mr-4">
+                                 <p><i class="far  fa-clock"></i> 
+                                     1
+                                      Menit Membaca ☕️</p>
+                             </div>
+                             <div class="time text-2xl  "><p><i class="far  fa-calendar-alt"></i> Feb-20-2022</p></div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+            
+        </div>
+   
         
        
         <div class="con-post container mx-auto last-post flex mt-10 p-5" style="padding : 10px;">
@@ -1592,16 +1674,15 @@ html{
     </div>
   
 </section>
-<footer class="text-white h-auto w-full" style="  background:  rgb(13, 6, 100);">
-    <p class="text-center text-xl py-10">© 2021 All Rights Reserved Made with <span class="text-2xl blink_me ">💖</span>  and Hugo  | Designed and Developed by IbnuHamzah</p>
-</footer>
+
 <script>
     $(document).on('load', function(){
+       
        $('.picture').addClass('force-hidden');
        $('.content').addClass('force-hidden');
     
     })
-      
+
     
     $(document).ready(function(){
           $('ul.skeleton').addClass('force-hidden');
@@ -1618,7 +1699,10 @@ html{
     
     </main>
     
-    <div class=""  style="background-color: #090085;">
+    <footer class="text-white h-auto w-full" style="  background:  rgb(13, 6, 100);">
+		<p class="text-center text-xl py-10">© 2021 All Rights Reserved Made with <span class="text-2xl blink_me ">💖</span>  and Hugo  | Designed and Developed by IbnuHamzah</p>
+	</footer>
+	<div class=""  style="background-color: #090085;">
   
     </div>
 

@@ -8,6 +8,18 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Sep 2021 23:49:09 +0700</lastBuildDate><atom:link href="https://ibnuhamzah404.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Sekedar Tips &amp; Tricks Apa Saja</title>
+      <link>https://ibnuhamzah404.github.io/blog/posts/sekedar-tips-apa-saja/</link>
+      <pubDate>Sun, 20 Feb 2022 01:25:18 +0700</pubDate>
+      
+      <guid>https://ibnuhamzah404.github.io/blog/posts/sekedar-tips-apa-saja/</guid>
+      <description>✅ Microsoft Word | Cara Mengatasi Microsoft Office Activation Failed &amp;amp; Menghilangkan Microsoft Office Activation Wizard cari file yang bernama OSPPREARM.EXE yang berada didalam folder C:\Program Files (x86)\Microsoft Office\Office16
+jika tidak ketemu cari difolder ini C:\Program Files\Common Files\microsoft shared
+saya menggunakan aplikasi Everything untuk mencari dengan cepat, jika mau download silakan ke link disamping atau boleh cari digoogle banyak kok.
+sesudah ketemu filnya lalu klik kanan dan pilih run administrator</description>
+    </item>
+    
+    <item>
       <title>Mengenal Lebih Dekat Dengan Markdown</title>
       <link>https://ibnuhamzah404.github.io/blog/posts/mengenal-lebih-dekat-dengan-markdown/</link>
       <pubDate>Sun, 13 Feb 2022 05:49:33 +0700</pubDate>
@@ -15,7 +27,7 @@
       <guid>https://ibnuhamzah404.github.io/blog/posts/mengenal-lebih-dekat-dengan-markdown/</guid>
       <description>jika temen temen sering bermain main digithub atau mulai belajar membuat static site generator pastinya tidak asing dengan istilah markdown.
 jika diantar temen temen sudah paham apa salahnya kita belajar kembali, dan yang belum mengerti sama sekali mari kita belajar letsgoo.
-Pengertian Makrdown markdown adalah sebuah bahasa markup yang sangat ringan dibanding html, kenapa dibilang ringan dikarnakan mudahnya dalam pembacaan dan penulisannya (easy to read easy to write)
+Pengertian Markdown markdown adalah sebuah bahasa markup yang sangat ringan dibanding html, kenapa dibilang ringan dikarnakan mudahnya dalam pembacaan dan penulisannya (easy to read easy to write)
 markdown berfungsi untuk mengkonversi dari text biasanya menjadi format html dengan menggunakan karakter karakter tertentu sebagai penanda.</description>
     </item>
     
