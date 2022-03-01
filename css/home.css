@@ -39,3 +39,7 @@ html {zoom: 75%;}div#disqus_thread > iframe{min-height: 1400px !important;height
         width: auto;
     
 }
+
+h3,h4,h5,h6, p, li, blockquote{
+    font-family: monospace !important;
+  }

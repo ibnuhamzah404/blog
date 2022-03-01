@@ -2,10 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ibnuhamzah404.github.io/blog/posts/sekedar-tips-apa-saja/</loc>
-    <lastmod>2022-02-20T01:25:18+07:00</lastmod>
+    <loc>https://ibnuhamzah404.github.io/blog/projects/awesomeprivate/</loc>
+    <lastmod>2022-03-01T11:30:40+07:00</lastmod>
+  </url><url>
+    <loc>https://ibnuhamzah404.github.io/blog/tags/new/</loc>
+    <lastmod>2022-03-01T11:30:40+07:00</lastmod>
+  </url><url>
+    <loc>https://ibnuhamzah404.github.io/blog/projects/</loc>
+    <lastmod>2022-03-01T11:30:40+07:00</lastmod>
   </url><url>
     <loc>https://ibnuhamzah404.github.io/blog/tags/</loc>
+    <lastmod>2022-03-01T11:30:40+07:00</lastmod>
+  </url><url>
+    <loc>https://ibnuhamzah404.github.io/blog/posts/sekedar-tips-apa-saja/</loc>
     <lastmod>2022-02-20T01:25:18+07:00</lastmod>
   </url><url>
     <loc>https://ibnuhamzah404.github.io/blog/tags/tips-tricks/</loc>
@@ -15,9 +24,6 @@
     <lastmod>2022-02-13T05:49:33+07:00</lastmod>
   </url><url>
     <loc>https://ibnuhamzah404.github.io/blog/posts/mengenal-lebih-dekat-dengan-markdown/</loc>
-    <lastmod>2022-02-13T05:49:33+07:00</lastmod>
-  </url><url>
-    <loc>https://ibnuhamzah404.github.io/blog/tags/new/</loc>
     <lastmod>2022-02-13T05:49:33+07:00</lastmod>
   </url><url>
     <loc>https://ibnuhamzah404.github.io/blog/posts/22-tahun-hidup-dibumi/</loc>
@@ -65,9 +71,6 @@
     <loc>https://ibnuhamzah404.github.io/blog/projects/learning-by-vark/</loc>
     <lastmod>2021-12-17T20:13:02+07:00</lastmod>
   </url><url>
-    <loc>https://ibnuhamzah404.github.io/blog/projects/</loc>
-    <lastmod>2021-12-17T20:13:02+07:00</lastmod>
-  </url><url>
     <loc>https://ibnuhamzah404.github.io/blog/projects/prof-bob/</loc>
     <lastmod>2021-12-17T20:05:18+07:00</lastmod>
   </url><url>
@@ -98,7 +101,7 @@
     <loc>https://ibnuhamzah404.github.io/blog/posts/03-tutorial-install-arduino-ide-pada-windows-10-copy/</loc>
     <lastmod>2021-11-21T00:53:10+07:00</lastmod>
   </url><url>
-    <loc>https://ibnuhamzah404.github.io/blog/projects/test/</loc>
+    <loc>https://ibnuhamzah404.github.io/blog/projects/emprit-cinematic/</loc>
     <lastmod>2021-11-20T12:29:46+07:00</lastmod>
   </url><url>
     <loc>https://ibnuhamzah404.github.io/blog/posts/02-tutuorial-arduino/</loc>
