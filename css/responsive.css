@@ -120,7 +120,10 @@ div.avatar > div > div > ul{
     padding-bottom: 16px !important;
 }
 .box-article .picture{
-    width: 120px !important;
+   
+    margin-left: 25px !important;
+    width: 135px !important;
+    height: 135px !important;
 }
 
 .box-article .content .tags{
@@ -133,7 +136,9 @@ div.avatar > div > div > ul{
     margin-top : 0 !important;
 }
 .box-article .picture .rounded-lg{
-    width: 100px !important;
+    width: 135px !important;
+    height: 135px !important;
+    
 }
 p{
     font-size: 16px !important;
@@ -227,8 +232,8 @@ canvas.particles-js-canvas-el {
     margin-bottom:  70px;
 }
 .con-project img  {
-    width:  70% !important;
-    height:  250px !important;
+    width:  90% !important;
+    height:  200px !important;
 }
 .con-profile > div  {
     padding:  5px !important;
@@ -241,8 +246,14 @@ canvas.particles-js-canvas-el {
 .box .ml-3  {
     padding-left:  0 !important;
 }
-.content div div  {
+.content div div.box-article  {
     word-wrap:  break-word;
+    flex-direction: column !important;
+    width: 100% !important;
+}
+
+div.con-post{
+    padding : 15px 10px !important;
 }
 .hr-projects {
     margin-bottom:  80px !important;
