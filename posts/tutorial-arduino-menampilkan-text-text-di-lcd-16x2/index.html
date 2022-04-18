@@ -12,7 +12,7 @@
 <meta itemprop="description" content="Basa Basi Dulu  Pada tutorial kali ini gue akan membahas bagaimana caranya untuk menampilkan text dari arduino ke lcd 16x2 i2c.
 terus i2c itu apa ya, i2c adalah Inter Integrated Circuit Intinya, dengan menggunakan modul I2C, pin Arduino yang digunakan untuk menyalakan LCD sangat sedikit yaitu hanya 2 pin: SDA (Serial Data) dan SCL (Serial Clock). Kalau di Arduino UNO itu pin A4 untuk SDA dan pin A5 untuk SCL."><meta itemprop="datePublished" content="2022-04-18T23:26:18+07:00" />
 <meta itemprop="dateModified" content="2022-04-18T23:26:18+07:00" />
-<meta itemprop="wordCount" content="100">
+<meta itemprop="wordCount" content="691">
 <meta itemprop="keywords" content="arduino," />
     
     <meta property="og:title" content="Tutorial Arduino Menampilkan Text Text Di Lcd 16x2" />
@@ -170,7 +170,7 @@ html{
 <meta itemprop="description" content="Basa Basi Dulu  Pada tutorial kali ini gue akan membahas bagaimana caranya untuk menampilkan text dari arduino ke lcd 16x2 i2c.
 terus i2c itu apa ya, i2c adalah Inter Integrated Circuit Intinya, dengan menggunakan modul I2C, pin Arduino yang digunakan untuk menyalakan LCD sangat sedikit yaitu hanya 2 pin: SDA (Serial Data) dan SCL (Serial Clock). Kalau di Arduino UNO itu pin A4 untuk SDA dan pin A5 untuk SCL."><meta itemprop="datePublished" content="2022-04-18T23:26:18+07:00" />
 <meta itemprop="dateModified" content="2022-04-18T23:26:18+07:00" />
-<meta itemprop="wordCount" content="100">
+<meta itemprop="wordCount" content="691">
 <meta itemprop="keywords" content="arduino," />
     
     <meta property="og:title" content="Tutorial Arduino Menampilkan Text Text Di Lcd 16x2" />
@@ -701,8 +701,121 @@ article img:hover{
 <p class="light-font">Pada tutorial kali ini gue akan membahas bagaimana caranya untuk menampilkan text dari arduino ke lcd  16x2 i2c.</p>
 <p class="light-font">terus i2c itu apa ya, i2c adalah <em>Inter Integrated Circuit</em> Intinya, dengan menggunakan modul I2C, pin Arduino yang digunakan untuk menyalakan LCD sangat sedikit yaitu hanya 2 pin: SDA (Serial Data) dan SCL (Serial Clock). Kalau di Arduino UNO itu pin A4 untuk SDA dan pin A5 untuk SCL.</p>
 <p class="light-font">jika kita tanpa menggunakan modul i2c maka pin yang akan digunakan akan lebih banyak, sangat merepotkan bukan, jadi temen temen usahain beli lcd yang sudah ada modul i2c nya ya.</p>
-<img style="width : auto; height : 600px;" src="https://ibnuhamzah404.github.io/blog/images/lcd-arduino-1.jpeg">
-<p class="light-font"><img src="https://ibnuhamzah404.github.io/blog/images/lcd-arduino-2.jpeg" alt="Gambar : LCD ARDIONO 16X2 "></p>
+<img style="width : auto; height : 300px; margin : unset;" src="https://ibnuhamzah404.github.io/blog/images/lcd-arduino-3.jpeg">
+<p class="light-font">nah itu diatas adalah modul i2c nya, jadi biasanya spaket dengan lcd.</p>
+<h2 class="className text-1xl  press-start" attrName="attrValue" id="hal-yang-harus-dipersiapkan">Hal yang harus dipersiapkan</h2>
+<p class="light-font"><strong>hardware</strong></p>
+<p class="light-font">untuk hardware nya ya kita perlu arduino, bisa nano, uno, mega atau mikrokontroller lainnya.</p>
+<p class="light-font">tapi gue disini menggunakan arduino uno ya.</p>
+<p class="light-font"><strong>sofware</strong></p>
+<p class="light-font">menginstal library <strong>LiquidCrystal</strong>.</p>
+<p class="light-font"><strong>alamat lcd i2c</strong>
+Modul I2C ini memiliki alamat I2C nya sendiri yang nantinya digunakan untuk sketch pemrograman. Biasanya ada alamat I2C yaitu 0x3F , 0x27, 0x26 tetapi untuk lebih pastinya  masukan kodingan ini aja kedalam arduino ide temen temen.</p>
+<p class="light-font">jika alamat lcd i2c sala biasanya gambar tidak tampil apa apa di lcd.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#75715e">//mencari addres lcd i2c 
+</span><span style="color:#75715e"></span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;Wire.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setup</span>()
+{
+Wire.begin();
+Serial.begin(<span style="color:#ae81ff">9600</span>);
+<span style="color:#66d9ef">while</span> (<span style="color:#f92672">!</span>Serial); <span style="color:#75715e">// Leonardo: wait for serial monitor
+</span><span style="color:#75715e"></span>Serial.println(<span style="color:#e6db74">&#34;nI2C Scanner&#34;</span>);
+}
+<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">loop</span>()
+{
+byte error, address;
+<span style="color:#66d9ef">int</span> nDevices;
+Serial.println(<span style="color:#e6db74">&#34;Scanning...&#34;</span>);
+nDevices <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+<span style="color:#66d9ef">for</span>(address <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; address <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">127</span>; address<span style="color:#f92672">++</span> )
+{
+Wire.beginTransmission(address);
+error <span style="color:#f92672">=</span> Wire.endTransmission();
+<span style="color:#66d9ef">if</span> (error <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>)
+{
+Serial.print(<span style="color:#e6db74">&#34;I2C device found at address 0x&#34;</span>);
+<span style="color:#66d9ef">if</span> (address<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">16</span>)
+Serial.print(<span style="color:#e6db74">&#34;0&#34;</span>);
+Serial.print(address,HEX);
+Serial.println(<span style="color:#e6db74">&#34; !&#34;</span>);
+nDevices<span style="color:#f92672">++</span>;
+}
+<span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (error<span style="color:#f92672">==</span><span style="color:#ae81ff">4</span>)
+{
+Serial.print(<span style="color:#e6db74">&#34;Unknown error at address 0x&#34;</span>);
+<span style="color:#66d9ef">if</span> (address<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">16</span>)
+Serial.print(<span style="color:#e6db74">&#34;0&#34;</span>);
+Serial.println(address,HEX);
+}
+}
+<span style="color:#66d9ef">if</span> (nDevices <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>)
+Serial.println(<span style="color:#e6db74">&#34;No I2C devices found&#34;</span>);
+<span style="color:#66d9ef">else</span>
+Serial.println(<span style="color:#e6db74">&#34;done&#34;</span>);
+delay(<span style="color:#ae81ff">5000</span>); <span style="color:#75715e">// wait 5 seconds for next scan
+</span><span style="color:#75715e"></span>}</code></pre></div>
+<h2 class="className text-1xl  press-start" attrName="attrValue" id="tahap-instalasi-perkabelan">tahap instalasi perkabelan</h2>
+<p class="light-font">lcd arduino i2c mempunyai 4 pin yang dihubungkan dengan pin arduino:</p>
+<ol>
+<li>VCC dihubungkan denngan PIN 5V</li>
+<li>GND dihubungkan dengan PIN GND</li>
+<li>SDA dihubungkan dengan PIN A4(analog 4)</li>
+<li>SCL dihubungkan dengan PIN A5(analog 5)</li>
+</ol>
+<h2 class="className text-1xl  press-start" attrName="attrValue" id="tahap-pemrograman">tahap pemrograman</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;LiquidCrystal_I2C.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
+LiquidCrystal_I2C <span style="color:#a6e22e">lcd</span>(<span style="color:#ae81ff">0x27</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">5</span>,<span style="color:#ae81ff">6</span>,<span style="color:#ae81ff">7</span>,<span style="color:#ae81ff">3</span>, POSITIVE);
+<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setup</span>() {
+  lcd.begin(<span style="color:#ae81ff">16</span>,<span style="color:#ae81ff">2</span>);
+}
+
+<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">loop</span>(){
+  lcd.setCursor(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>);
+  lcd.print(<span style="color:#e6db74">&#34;how to hack nasa&#34;</span>);
+  lcd.setCursor(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>);
+  lcd.print(<span style="color:#e6db74">&#34;with arduino&#34;</span>);
+
+  
+}</code></pre></div>
+<p class="light-font"><strong>PENJELASAN KODE</strong></p>
+<ul>
+<li>
+<p class="light-font"><strong>libary atau pustaka kamus</strong></p>
+<p class="light-font"><span class="blue-text"> <strong>#include &lt;LiquidCrystal_I2C.h&gt;</strong> </span></p>
+<p class="light-font">jika temen temen pernah belajar dasar pemrograman c++ maka kata include sudah tidak asing lagi ditelinga temen temen, yap include itu berfungsi sebagai libary.</p>
+<p class="light-font">itu gunanya kalian menginstal libary diawal.</p>
+<p class="light-font">kenapa harus menggunakan library?</p>
+<p class="light-font">libary atau pustaka kamus berisi kode kode dan sekumpulan fungsi fungsi yang dapat memudahkan kita dalam memprogram jauh lebih cepat efesien dan  kita tidak perlu membuatnya dari 0 lagi karna sudah disediakan didalam libary tersebut.</p>
+<p class="light-font">kita tinggal pakai dan panggil saja contohnya seperti fungsi untuk menampilkan karakter atau tulisan kedalam lcd kita hanya cukup memanggilnya seperti ini <span class="blue-text"> <strong>lcd.print(&ldquo;belajar arduino pemula&rdquo;)</strong> </span> dengan kode tersebut dapat meringkas pekerjaan kita bukan.</p>
+</li>
+<li>
+<p class="light-font"><strong>bare minimum</strong></p>
+<p class="light-font"><span class="blue-text"> void setup()  </span> dan <span class="blue-text"> void loop()</span> merupakan sebuah fungsi default yang harus ada disebut dengan bare minimum, fungsi setup akan dieksekusi sekali ketika arduino dinyalakan, sedengan fungsi loop akan selalu diulang terus menerus.</p>
+<p class="light-font">jika kalian ingin membuat program yang hanya dieksekusi sekali saja, taruh program tersebut didalam fungsi setup, jika program sebaliknya ingin diproses secara berulang taruh didalam fungsi loop.</p>
+</li>
+<li>
+<p class="light-font"><strong>lcd.setCursor()</strong></p>
+<p class="light-font"><span class="blue-text">lcd.setCursor(0,0) </span> kode ini merupakan sebuah fungsi untuk menset letak text yang akan ditampilkan, lcd 16x2 mempunyai 16 baris dan 2 kolom, dalam fungsi <span class="blue-text">lcd.setCusrsor(ini baris, ini kolom) </span> jadi jika ditulis (0,0)
+artinya text kita akan ditulis dimulai dari baris 0 kolom 0.</p>
+<p class="light-font">jika ditulis (0,1) maka text akan ditulis mulai dari baris 0 kolom 1.</p>
+</li>
+<li>
+<p class="light-font"><strong>lcd.print()</strong></p>
+<p class="light-font"><span class="blue-text">lcd.print(&quot;&quot;)</span> kode ini berfungsi untuk mencetak tulisan ke lcd dengan batas 16 karakter perbaris, spasi juga dihitug ya.</p>
+</li>
+<li>
+<p class="light-font"><strong>lcd.begin()</strong>
+berfungsi untuk menentukan dimensi dari lcd yang akan di gunakan
+<span class="blue-text"> lcd.begin(baris ,kolom); </span></p>
+</li>
+</ul>
+<p class="light-font">jika sudah silakan dicompail program diatas maka akan muncul tampilan seperti ini menandakan temen temen berhasil yippy (っ＾▿＾)💨</p>
+<img style="width : auto; height : 300px; margin : unset;" src="https://ibnuhamzah404.github.io/blog/images/lcd-arduino-2.jpeg">
+<h2 class="className text-1xl  press-start" attrName="attrValue" id="kesimpulan-dan-penutupan">kesimpulan dan penutupan</h2>
+<p class="light-font">dalam tutorial kali ini gue sendiri mengalami kendala text nya tampil karakter kotak jika temen temen mengalami itu coba puter potensio dibelakang modul i2c, untuk mengatur sensitivitas modul.</p>
+<p class="light-font">jika tampilan text tidak muncul coba cek alamat lcd apa sudah benar atau belum, jika bertemu kendala lainnya silakan komentar aja ya hehe.</p>
+<p class="light-font">mungkin sekian tutorial kali ini semoga membantu babayyy≧◠‿◠≦✌</p>
 </div>
        
       </div>
@@ -746,7 +859,7 @@ article img:hover{
 <div class="lg:flex-row flex-col box-prev-next flex lg:justify-between my-10">
   <div class="box lg:mb-0 mb-5" style="background : rgb(58, 27, 236); padding:20px; ">
     
-    <a class="text-3xl  ssp " href="https://ibnuhamzah404.github.io/blog/posts/hello-word-diberbagai-bahasa-pemrograman/" style="color : #fff;"><i class="mr-3 fa fa-arrow-left"> </i>Mmebuat Hello Word Diberbagai …</a>
+    <a class="text-3xl  ssp " href="https://ibnuhamzah404.github.io/blog/posts/sekedar-tips-apa-saja/" style="color : #fff;"><i class="mr-3 fa fa-arrow-left"> </i>Sekedar Tips &amp; Tricks Apa Saja</a>
   
 
   </div>
