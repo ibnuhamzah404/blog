@@ -6,7 +6,17 @@
     <description>Recent content in arduino on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Dec 2021 02:16:12 +0700</lastBuildDate><atom:link href="https://ibnuhamzah404.github.io/blog/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Apr 2022 23:26:18 +0700</lastBuildDate><atom:link href="https://ibnuhamzah404.github.io/blog/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tutorial Arduino Menampilkan Text Text Di Lcd 16x2</title>
+      <link>https://ibnuhamzah404.github.io/blog/posts/tutorial-arduino-menampilkan-text-text-di-lcd-16x2/</link>
+      <pubDate>Mon, 18 Apr 2022 23:26:18 +0700</pubDate>
+      
+      <guid>https://ibnuhamzah404.github.io/blog/posts/tutorial-arduino-menampilkan-text-text-di-lcd-16x2/</guid>
+      <description>Basa Basi Dulu  Pada tutorial kali ini gue akan membahas bagaimana caranya untuk menampilkan text dari arduino ke lcd 16x2 i2c.
+terus i2c itu apa ya, i2c adalah Inter Integrated Circuit Intinya, dengan menggunakan modul I2C, pin Arduino yang digunakan untuk menyalakan LCD sangat sedikit yaitu hanya 2 pin: SDA (Serial Data) dan SCL (Serial Clock). Kalau di Arduino UNO itu pin A4 untuk SDA dan pin A5 untuk SCL.</description>
+    </item>
+    
     <item>
       <title>Tutorial Arduino Part-06: Membuat Running Led Menggunakan Arduino</title>
       <link>https://ibnuhamzah404.github.io/blog/posts/06-tutorial-arduino-running-led/</link>
