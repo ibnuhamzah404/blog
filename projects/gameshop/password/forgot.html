@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from gameshop.appdevs.net/password/forgot by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Jan 2025 23:09:00 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="csrf-token" content="zqF0pGHli29OV9m1BTLZapf6tyIzK6SEAXbwvFqc">
+    <title>GameShop | Forgot Password</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+
+    <!-- favicon -->
+<link rel="shortcut icon" href="../public/backend/images/web-settings/image-assets/4ed7eda8-7e3d-453c-bead-0874123e93e2.webp" type="image/x-icon">
+<link rel="stylesheet" href="../public/frontend/css/line-awesome.css">
+<!-- bootstrap css link -->
+<link rel="stylesheet" href="../public/frontend/css/bootstrap.css">
+<!-- swipper css link -->
+<link rel="stylesheet" href="../public/frontend/css/swiper.css">
+<!-- animate css link -->
+<link rel="stylesheet" href="../public/frontend/css/animate.css">
+<!-- odometer css link -->
+<link rel="stylesheet" href="../public/frontend/css/odometer.css">
+<!-- nice-select css link -->
+<link rel="stylesheet" href="../public/frontend/css/nice-select.css">
+<!-- lightcase css link -->
+<link rel="stylesheet" href="../public/frontend/css/lightcase.css">
+<!-- style css link -->
+
+
+<link rel="stylesheet" href="../public/backend/css/select2.css">
+<link rel="stylesheet" href="../public/backend/library/popup/magnific-popup.css">
+<!-- Fileholder CSS CDN -->
+<link rel="stylesheet" href="../../appdevs.cloud/cdn/fileholder/v1.0/css/fileholder-style.css" type="text/css">
+
+<link rel="stylesheet" href="../public/frontend/css/style.css">
+
+<style>
+    :root {
+        --base_color: #ff4800;
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__rendered {
+        color: #ffffff;
+    }
+</style>
+    </head>
+
+<body>
+
+    <div class="preloader">
+    <div class="loader-inner">
+        <div class="loader-circle">
+            <img src="../public/backend/images/web-settings/image-assets/4ed7eda8-7e3d-453c-bead-0874123e93e2.webp" alt="Preloader">
+        </div>
+        <div class="loader-line-mask">
+            <div class="loader-line"></div>
+        </div>
+    </div>
+</div>
+    <div id="body-overlay" class="body-overlay"></div>
+
+        <div class="account-section active">
+        <div class="account-area change-form page">
+            <div class="account-form-area">
+                <div class="account-logo text-start">
+                    <a href="../index.html" class="site-logo">
+                        <img src="../public/backend/images/web-settings/image-assets/3cbc3d65-a79e-4ff7-bf05-32e4d3531a0f.webp" alt="logo">
+                    </a>
+                </div>
+                <h5 class="title">Forgot Password?</h5>
+                <p>Enter your email and we&#039;ll send you a otp to reset your password.</p>
+                <form action="https://gameshop.appdevs.net/password/forgot/send/code" class="account-form" method="POST">
+                    <input type="hidden" name="_token" value="zqF0pGHli29OV9m1BTLZapf6tyIzK6SEAXbwvFqc">                    <div class="row ml-b-20">
+                        <div class="col-lg-12 form-group">
+                            <input type="text" placeholder="Email Address" name="credentials"
+    class="form--control  " 
+    value=""         required
+>
+                        </div>
+
+                        <div class="col-lg-12 form-group text-center">
+                            <button type="submit" class="btn--base w-100">Send OTP</button>
+                        </div>
+
+
+                        <div class="col-lg-12 text-center">
+                            <div class="account-item">
+                                <label>Already Have An Account? <a href="../index.html"
+                                        class="account-control-btn">Login Now</a></label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- jquery -->
+<script src="../public/frontend/js/jquery-3.5.1.js"></script>
+<!-- bootstrap js -->
+<script src="../public/frontend/js/bootstrap.bundle.js"></script>
+<!-- swipper js -->
+<script src="../public/frontend/js/swiper.js"></script>
+<!-- odometer js -->
+<script src="../public/frontend/js/odometer.js"></script>
+<!-- viewport js -->
+<script src="../public/frontend/js/viewport.jquery.js"></script>
+<!-- smooth scroll js -->
+<script src="../public/frontend/js/smoothscroll.js"></script>
+<!-- nice-select -->
+<script src="../public/frontend/js/jquery.nice-select.js"></script>
+<!-- lightcase js -->
+<script src="../public/frontend/js/lightcase.js"></script>
+
+
+<script src="../public/backend/js/select2.js"></script>
+<!--  Popup -->
+<script src="../public/backend/library/popup/jquery.magnific-popup.js"></script>
+<!-- file holder js -->
+<script src="../../appdevs.cloud/cdn/fileholder/v1.0/js/fileholder-script.js" type="module"></script>
+<script>
+    var fileHolderAfterLoad = {};
+</script>
+<script type="module">
+    import { fileHolderSettings } from "https://appdevs.cloud/cdn/fileholder/v1.0/js/fileholder-settings.js";
+    import { previewFunctions } from "https://appdevs.cloud/cdn/fileholder/v1.0/js/fileholder-script.js";
+
+    var inputFields = document.querySelector(".file-holder");
+    fileHolderAfterLoad.previewReInit = function(inputFields) {
+        previewFunctions.previewReInit(inputFields)
+    };
+
+    fileHolderSettings.urls.uploadUrl = "../fileholder-upload.html";
+    fileHolderSettings.urls.removeUrl = "../fileholder-remove.html";
+</script>
+<script>
+    function fileHolderPreviewReInit(selector) {
+        var inputField = document.querySelector(selector);
+        fileHolderAfterLoad.previewReInit(inputField);
+    }
+</script>
+<script src="../public/frontend/js/main.js"></script>
+<script>
+    var allCountries = "";
+
+    function getAllCountries(hitUrl, targetElement = $(".country-select"), errorElement = $(".country-select").siblings(
+        ".select2")) {
+        if (targetElement.length == 0) {
+            return false;
+        }
+        var CSRF = $("meta[name=csrf-token]").attr("content");
+        var data = {
+            _token: CSRF,
+        };
+        $.post(hitUrl, data, function() {
+            // success
+            $(errorElement).removeClass("is-invalid");
+            $(targetElement).siblings(".invalid-feedback").remove();
+        }).done(function(response) {
+            // Place States to States Field
+            var options = "<option selected disabled>Select Country</option>";
+            var selected_old_data = "";
+            if ($(targetElement).attr("data-old") != null) {
+                selected_old_data = $(targetElement).attr("data-old");
+            }
+            $.each(response, function(index, item) {
+                options +=
+                    `<option value="${item.name}" data-id="${item.id}" data-mobile-code="${item.mobile_code}" data-currency-name="${item.currency_name}" data-currency-code="${item.currency_code}" data-currency-symbol="${item.currency_symbol}" ${selected_old_data == item.name ? "selected" : ""}>${item.name}</option>`;
+            });
+
+            allCountries = response;
+
+            $(targetElement).html(options);
+        }).fail(function(response) {
+            var faildMessage = "Something went worng! Please try again.";
+            var faildElement = `<span class="invalid-feedback" role="alert">
+                              <strong>${faildMessage}</strong>
+                          </span>`;
+            $(errorElement).addClass("is-invalid");
+            if ($(targetElement).siblings(".invalid-feedback").length != 0) {
+                $(targetElement).siblings(".invalid-feedback").text(faildMessage);
+            } else {
+                errorElement.after(faildElement);
+            }
+        });
+    }
+</script>
+<script>
+    $(document).ready(function() {
+        $(".show_hide_password .show-pass").on('click', function(event) {
+            event.preventDefault();
+            if ($(this).parent().find("input").attr("type") == "text") {
+                $(this).parent().find("input").attr('type', 'password');
+                $(this).find("i").addClass("la-eye-slash");
+                $(this).find("i").removeClass("la-eye");
+            } else if ($(this).parent().find("input").attr("type") == "password") {
+                $(this).parent().find("input").attr('type', 'text');
+                $(this).find("i").removeClass("la-eye-slash");
+                $(this).find("i").addClass("la-eye");
+            }
+        });
+    });
+</script>
+<script>
+    function laravelCsrf() {
+        return $("head meta[name=csrf-token]").attr("content");
+    }
+    //for popup
+    function openAlertModal(URL, target, message, actionBtnText = "Remove", method = "DELETE") {
+        if (URL == "" || target == "") {
+            return false;
+        }
+
+        if (message == "") {
+            message = "Are you sure to delete ?";
+        }
+        var method = `<input type="hidden" name="_method" value="${method}">`;
+        openModalByContent({
+                content: `<div class="card modal-alert border-0">
+                        <div class="card-body">
+                            <form method="POST" action="${URL}">
+                                <input type="hidden" name="_token" value="${laravelCsrf()}">
+                                ${method}
+                                <div class="head mb-3 text-dark">
+                                    ${message}
+                                    <input type="hidden" name="target" value="${target}">
+                                </div>
+                                <div class="foot d-flex align-items-center justify-content-between">
+                                    <button type="button" class="modal-close btn btn--info rounded text-light">Close</button>
+                                    <button type="submit" class="alert-submit-btn btn btn--danger btn-loading rounded text-light">${actionBtnText}</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>`,
+            },
+
+        );
+    }
+
+    function openModalByContent(data = {
+        content: "",
+        animation: "mfp-move-horizontal",
+        size: "medium",
+    }) {
+        $.magnificPopup.open({
+            removalDelay: 500,
+            items: {
+                src: `<div class="white-popup mfp-with-anim ${data.size ?? "medium"}">${data.content}</div>`, // can be a HTML string, jQuery object, or CSS selector
+            },
+            callbacks: {
+                beforeOpen: function() {
+                    this.st.mainClass = data.animation ?? "mfp-move-horizontal";
+                },
+                open: function() {
+                    var modalCloseBtn = this.contentContainer.find(".modal-close");
+                    $(modalCloseBtn).click(function() {
+                        $.magnificPopup.close();
+                    });
+                },
+            },
+            midClick: true,
+        });
+    }
+
+    function openDeleteModal(URL, target, message, actionBtnText = "Remove", method = "DELETE") {
+        if (URL == "" || target == "") {
+            return false;
+        }
+
+        if (message == "") {
+            message = "Are you sure toll delete ?";
+        }
+        var method = `<input type="hidden" name="_method" value="${method}">`;
+
+        openModalByContent({
+                content: `<div class="card modal-alert border-0">
+                      <div class="card-body">
+                          <form method="POST" action="${URL}">
+                              <input type="hidden" name="_token" value="${laravelCsrf()}">
+                              ${method}
+                              <div class="head mb-3 text-dark">
+                                  ${message}
+                                  <input type="hidden" name="target" value="${target}">
+                              </div>
+                              <div class="foot d-flex align-items-center justify-content-between">
+                                  <button type="button" class="modal-close btn btn--info rounded text-white">Close</button>
+                                  <button type="submit" class="alert-submit-btn btn btn--danger btn-loading rounded text-white">${actionBtnText}</button>
+                              </div>
+                          </form>
+                      </div>
+                  </div>`,
+            },
+
+        );
+    }
+</script>
+<script>
+    $(".langSel").on("change", function() {
+        window.location.href = "https://gameshop.appdevs.net/change/" + $(this).val();
+    });
+</script>
+<script>
+    /**
+     * Function for search admin panel sidebar menu item
+     */
+    function sideBarSearch() {
+        var menuLinks = $(".sidebar-menu a");
+        var filterMenuItem = [];
+        $.each(menuLinks, function(index, item) {
+            // console.log(index, item)
+            if ($(item).attr("href") != "javascript:void(0)") {
+                filterMenuItem.push(item);
+            }
+        });
+
+
+        $(".sidebar-search-input").keyup(function() {
+            sideBarSearchWithInput($(this), filterMenuItem);
+        })
+    }
+    sideBarSearch();
+
+
+    function sideBarSearchWithInput(input, navItems) {
+        var inputValue = input.val().toLowerCase();
+        var searchResult = [];
+        $.each(navItems, function(index, item) {
+            var title = $(item).find("span").text().toLowerCase();
+            var result = title.match(inputValue)
+            if (result != null) {
+                searchResult.push(item);
+            }
+        });
+        $(".sidebar-search-result").html("");
+
+        $.each(searchResult, function(index, item) {
+            // console.log(item)
+            var link = $(item).attr("href");
+            var title = $(item).find("span").text();
+            var iconClass = $(item).find("i").attr("class");
+            var singleItem = `<div class="single-item">
+                <a href="${link}">
+                <i class="${iconClass}"></i>
+                <span style="position:inherit">${title}</span>
+                </a>
+        </div>`
+            $(".sidebar-search-result").append(singleItem);
+        });
+
+
+
+        // $(".header-search-wrapper .sidebar-search-input").click(function () {
+        //     $(".header-search-wrapper .sidebar-search-result").addClass("active");
+        // });
+
+
+
+
+        // console.log(singleItem);
+    }
+</script>
+    <!-- notify js -->
+<script src='../public/backend/js/bootstrap-notify.js'></script>
+
+<script>
+    // Show Laravel Error Messages----------------------------------------------
+    $(function() {
+        $(document).ready(function() {
+                    });
+    });
+    //--------------------------------------------------------------------------
+
+    // Function for throw error messages from javascript------------------------
+    function throwMessage(type, errors = []) {
+        if (type == 'error') {
+            $.each(errors, function(index, item) {
+                $.notify({
+                    title: "",
+                    message: item,
+                    icon: 'las la-exclamation-triangle',
+                }, {
+                    type: "danger",
+                    allow_dismiss: true,
+                    delay: 5000,
+                    placement: {
+                        from: "top",
+                        align: "right"
+                    },
+                });
+            });
+        } else if (type == 'success') {
+            $.each(errors, function(index, item) {
+                $.notify({
+                    title: "",
+                    message: item,
+                    icon: 'las la-check-circle',
+                }, {
+                    type: "success",
+                    allow_dismiss: true,
+                    delay: 5000,
+                    placement: {
+                        from: "top",
+                        align: "right"
+                    },
+                });
+            });
+        } else if (type == 'warning') {
+            $.each(errors, function(index, item) {
+                $.notify({
+                    title: "",
+                    message: item,
+                    icon: 'las la-check-circle',
+                }, {
+                    type: "warning",
+                    allow_dismiss: true,
+                    delay: 500000000,
+                    placement: {
+                        from: "top",
+                        align: "right"
+                    },
+                });
+            });
+        }
+
+    }
+    //--------------------------------------------------------------------------
+
+    // Function for set modal session value --------------------
+    var validationSession = null;
+
+    function getSessionValue(sesesionValue = null) {
+        validationSession = sessionValue;
+    }
+
+    
+    // Function for open modal/popup when have backend session
+    function openModalWhenError(sessionValue, modalSelector) {
+        if (validationSession != sessionValue) {
+            return false;
+        }
+        openModalBySelector(modalSelector);
+    }
+    //----------------------------------------------------------
+
+
+    function countrySelect(element, errorElement) {
+        $(document).on("change", element, function() {
+            var targetElement = $(this);
+            var countryId = $(element + " :selected").attr("data-id");
+            if (countryId != "" || countryId != null) {
+                var CSRF = $("meta[name=csrf-token]").attr("content");
+                var data = {
+                    _token: CSRF,
+                    country_id: countryId,
+                };
+                $.post("../global/get-states.html", data, function() {
+                    // success
+                    $(errorElement).removeClass("is-invalid");
+                    $(targetElement).siblings(".invalid-feedback").remove();
+                }).done(function(response) {
+                    // Place States to States Field
+                    var options = "<option selected disabled>Select State</option>";
+                    $.each(response, function(index, item) {
+                        options +=
+                            `<option value="${item.name}" data-id="${item.id}">${item.name}</option>`;
+                    });
+                    $(".state-select").html(options);
+                }).fail(function(response) {
+                    if (response.status == 422) { // Validation Error
+                        var faildMessage = "Please select a valid Country.";
+                        var faildElement = `<span class="invalid-feedback" role="alert">
+                                                <strong>${faildMessage}</strong>
+                                            </span>`;
+                        $(errorElement).addClass("is-invalid");
+                        if ($(targetElement).siblings(".invalid-feedback").length != 0) {
+                            $(targetElement).siblings(".invalid-feedback").text(faildMessage);
+                        } else {
+                            errorElement.after(faildElement);
+                        }
+                    } else {
+                        var faildMessage = "Something went worng! Please try again.";
+                        var faildElement = `<span class="invalid-feedback" role="alert">
+                                                <strong>${faildMessage}</strong>
+                                            </span>`;
+                        $(errorElement).addClass("is-invalid");
+                        if ($(targetElement).siblings(".invalid-feedback").length != 0) {
+                            $(targetElement).siblings(".invalid-feedback").text(faildMessage);
+                        } else {
+                            errorElement.after(faildElement);
+                        }
+                    }
+
+                });
+            } else {
+                // Push Error
+            }
+        });
+    }
+
+    // State Select Get Cities
+    function stateSelect(element, errorElement) {
+        $(document).on("change", element, function() {
+            var targetElement = $(this);
+            var stateId = $(element + " :selected").attr("data-id");
+            if (stateId != "" || stateId != null) {
+                var CSRF = $("meta[name=csrf-token]").attr("content");
+                var data = {
+                    _token: CSRF,
+                    state_id: stateId,
+                };
+                $.post("../global/get-cities.html", data, function() {
+                    // success
+                    $(errorElement).removeClass("is-invalid");
+                    $(targetElement).siblings(".invalid-feedback").remove();
+                }).done(function(response) {
+                    // console.log(response);
+                    // Place States to States Field
+                    var options = "<option selected disabled>Select City</option>";
+                    $.each(response, function(index, item) {
+                        options +=
+                            `<option value="${item.name}" data-id="${item.id}">${item.name}</option>`;
+                    });
+
+                    $(".city-select").html(options);
+                }).fail(function(response) {
+                    if (response.status == 422) { // Validation Error
+                        var faildMessage = "Please select a valid state.";
+                        var faildElement = `<span class="invalid-feedback" role="alert">
+                                                <strong>${faildMessage}</strong>
+                                            </span>`;
+                        $(errorElement).addClass("is-invalid");
+                        if ($(targetElement).siblings(".invalid-feedback").length != 0) {
+                            $(targetElement).siblings(".invalid-feedback").text(faildMessage);
+                        } else {
+                            errorElement.after(faildElement);
+                        }
+                    } else {
+                        var faildMessage = "Something went worng! Please try again.";
+                        var faildElement = `<span class="invalid-feedback" role="alert">
+                                                <strong>${faildMessage}</strong>
+                                            </span>`;
+                        $(errorElement).addClass("is-invalid");
+                        if ($(targetElement).siblings(".invalid-feedback").length != 0) {
+                            $(targetElement).siblings(".invalid-feedback").text(faildMessage);
+                        } else {
+                            errorElement.after(faildElement);
+                        }
+                    }
+                });
+            } else {
+                // Push Error
+            }
+        });
+    }
+</script>
+    
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'90a51f1dca8e9b9c',t:'MTczODI3ODQ4Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='../cdn-cgi/challenge-platform/h/b/scripts/jsd/6682e961b853/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"90a51f1dca8e9b9c","version":"2025.1.0","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"71af2616d7f34b0eaa42c2fb8cb78a4d","b":1}' crossorigin="anonymous"></script>
+</body>
+
+
+<!-- Mirrored from gameshop.appdevs.net/password/forgot by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Jan 2025 23:09:00 GMT -->
+</html>
